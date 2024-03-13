@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="C#" Class="PostData" CodeBehind="~/App_Code/Ajax/PostData.cs"%>

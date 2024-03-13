@@ -6,6 +6,7 @@ app.controller('contactController', function ($scope) {
 
     this.scope = $scope;
 
+    $scope.urlPostData = '../Ajax/POSTData.ashx';
     $scope.applyDelay = null;
     $scope.updateUI = function () {
         try {
@@ -23,6 +24,15 @@ app.controller('contactController', function ($scope) {
         }
     };
 
+    $scope.uuidv4 = function () {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'
+            .replace(/[xy]/g, function (c) {
+                const r = Math.random() * 16 | 0,
+                    v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+    };
+
     $scope.checkRequire = function (info) {
         if (info === undefined || info === null || info.length == 0) {
             return false;
@@ -31,12 +41,11 @@ app.controller('contactController', function ($scope) {
     };
 
     $scope.validateEmail = function (email) {
-        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-            return (true)
-        }
-        return (false)
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
     };
 
+    $scope.bShowInfo = true;
     $scope.company = '';
     $scope.department = '';
     $scope.personname = '';
@@ -44,7 +53,7 @@ app.controller('contactController', function ($scope) {
     $scope.phone = '';
     $scope.email = '';
     $scope.content = '';
-    $scope.chkAccept = false;
+    $scope.chkAccept = true;
     $scope.bPersonname = false;
     $scope.bFurigana = false;
     $scope.bPhone = false;
@@ -59,6 +68,52 @@ app.controller('contactController', function ($scope) {
             console.log('validate: ' + bValidate);
             return;
         }
+
+        document.getElementById('item_1').className = 'c-form-head__item';
+        document.getElementById('item_3').className = 'c-form-head__item is-current';
+
+        var formData = new FormData();
+        var files = document.getElementById('fileupload').files;
+        if (files.length > 0) {
+            for (var i = 0; i < files.length; i++) {
+                formData.append("file-" + i, files[i]);
+            }
+        }
+
+        let jsonReq = {
+            'company': $scope.company,
+            'department': $scope.department,
+            'personname': $scope.personname,
+            'furigana': $scope.furigana,
+            'phone': $scope.phone,
+            'email': $scope.email,
+            'content': $scope.content,
+            'guid': $scope.uuidv4()
+        };
+
+        formData.append("info", JSON.stringify(jsonReq));
+
+        $.ajax({
+            type: "POST",
+            url: $scope.urlPostData + "?func=SEND-CONTACT",
+            data: formData,
+            contentType: false,
+            processData: false,
+
+            beforeSend: function () {
+                $scope.bShowInfo = false;
+            },
+
+            success: function (jsonRes) {
+                try {
+                } catch (e) {
+                    console.error('=>> ERROR: ' + e);
+                }
+            },
+
+            error: function (xhr, textStatus, error) {
+            }
+        });
     };
 
     $scope.validate = function () {
@@ -79,7 +134,6 @@ app.controller('contactController', function ($scope) {
         validate = $scope.checkRequire($scope.phone);
         if (!validate) $scope.bPhone = true;
 
-        debugger;
         validate = $scope.checkRequire($scope.email);
         if (!validate) {
             $scope.bEmail = true;
@@ -89,6 +143,7 @@ app.controller('contactController', function ($scope) {
         if ($scope.checkRequire($scope.email)) {
             let valEmail = $scope.validateEmail($scope.email);
             if (!valEmail) {
+                validate = false;
                 $scope.messageErrorEmail = 'メールアドレスの形式ではありません。';
                 $scope.bEmail = true;
             }

@@ -13,7 +13,7 @@
                             <div class="c-form-head__block">
                                 <div class="c-form-head__title">お問い合わせ・お見積り</div>
                                 <div class="c-form-head__list">
-                                    <div class="c-form-head__item is-current">
+                                    <div class="c-form-head__item is-current" id="item_1">
                                         <div class="c-form-head__item-number">1</div>
                                         <div class="c-form-head__item-text">お客様情報入力</div>
                                     </div>
@@ -21,7 +21,7 @@
                                         <div class="c-form-head__item-number">2</div>
                                         <div class="c-form-head__item-text">入力内容の確認</div>
                                     </div>
-                                    <div class="c-form-head__item">
+                                    <div class="c-form-head__item" id="item_3">
                                         <div class="c-form-head__item-number">3</div>
                                         <div class="c-form-head__item-text">送信完了</div>
                                     </div>
@@ -30,10 +30,11 @@
                         </div>
                     </div>
                     <div class="c-forms">
-                        <div class="c-forms__text">お問い合わせ・お見積りなどのご相談は、下記のフォームに必要項目を入力しご送信ください。</div>
                         <div class="row">
                             <div class="large-10 is-push-lg-1 small-12">
-                                <div id="mw_wp_form_mw-wp-form-7" class="mw_wp_form mw_wp_form_input  ">
+                                <div id="mw_wp_form_mw-wp-form-7" class="mw_wp_form mw_wp_form_input" data-ng-if="bShowInfo">
+                                    <div class="c-forms__text">お問い合わせ・お見積りなどのご相談は、下記のフォームに必要項目を入力しご送信ください。</div>
+
                                     <div class="c-forms__block">
                                         <div class="c-forms__title">貴社名</div>
                                         <div class="c-forms__content">
@@ -96,7 +97,7 @@
                                                 </small>
                                             </p>
                                             <div class="c-forms__file">
-                                                <input type="file" name="アップロード機能" />
+                                                <input type="file" name="アップロード機能" id="fileupload" />
                                                 <span data-mwform-file-delete="アップロード機能" class="mwform-file-delete">&times;</span>
                                             </div>
                                         </div>
@@ -122,7 +123,7 @@
                                             <input type="hidden" name="個人情報保護方針[separator]" value="," />
 
                                             <input type="hidden" name="__children[個人情報保護方針][]" value="{&quot; &quot;:&quot; &quot;}" />
-                                            <a href="~/index.aspx" target="_blank" rel="noopener">個人情報保護方針</a>の内容に同意する
+                                            <a href="#" rel="noopener">個人情報保護方針</a>の内容に同意する
                                         </label>
                                         <div>
                                             <span data-ng-show="bAccept">未入力です。</span>
@@ -132,6 +133,31 @@
                                         <button type="button" name="submit" value="send" class="c-button is-xlg" data-ng-click="send()">送信する</button>
                                     </div>
                                 </div>
+
+                                <div class="c-forms__inner" data-ng-if="!bShowInfo">
+                                    <div class="row">
+                                        <div class="large-10 is-push-lg-1 small-12">
+                                            <div class="c-forms__heading c-heading is-md is-normal u-text-center is-bottom">
+                                                お問い合わせ<br class="u-hidden-lg">
+                                                ありがとうございました。
+                                            </div>
+                                            <div class="c-forms__text">
+                                                この度はお問い合わせいただき、誠にありがとうございます。<br>
+                                                いただいた内容を確認後、担当者より再度ご連絡いたします。<br>
+                                                大変恐縮ですが、今しばらくお待ちくださいませ。<br>
+                                                <br>
+                                                <p>
+                                                    ※尚、ご入力いただいたメールアドレス宛に<br class="u-hidden-sm">
+                                                    お問い合わせ内容を記載した自動返信メールが配信されております。<br>
+                                                    そちらも併せてご確認くださいませ。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-ng-if="!bShowInfo" class="c-forms__pagetop u-text-center"><a class="c-button is-xlg" href="/">トップページに戻る</a></div>
+                                <div style="height: 105px"></div>
                             </div>
                         </div>
                     </div>
