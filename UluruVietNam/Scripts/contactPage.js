@@ -53,7 +53,7 @@ app.controller('contactController', function ($scope) {
     $scope.phone = '';
     $scope.email = '';
     $scope.content = '';
-    $scope.chkAccept = true;
+    $scope.chkAccept = false;
     $scope.bPersonname = false;
     $scope.bFurigana = false;
     $scope.bPhone = false;
@@ -125,6 +125,7 @@ app.controller('contactController', function ($scope) {
 
         let validate = true;
 
+        debugger
         validate = $scope.checkRequire($scope.personname);
         if (!validate) $scope.bPersonname = true;
 
