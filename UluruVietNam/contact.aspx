@@ -32,14 +32,14 @@
                     <div class="c-forms">
                         <div class="row">
                             <div class="large-10 is-push-lg-1 small-12">
-                                <div id="mw_wp_form_mw-wp-form-7" class="mw_wp_form mw_wp_form_input" data-ng-if="bShowInfo">
+                                <div id="mw_wp_form_mw-wp-form-7" class="mw_wp_form mw_wp_form_input" data-ng-show="bShowInfo">
                                     <div class="c-forms__text">お問い合わせ・お見積りなどのご相談は、下記のフォームに必要項目を入力しご送信ください。</div>
 
                                     <div class="c-forms__block">
                                         <div class="c-forms__title">貴社名</div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
-                                                <input type="text" name="貴社名" size="60" value="" placeholder="株式会社カンパニー" data-ng-model="company" />
+                                                <input type="text" name="貴社名" size="60"  placeholder="株式会社カンパニー" data-ng-model="company" />
                                             </div>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@
                                         <div class="c-forms__title">部署</div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
-                                                <input type="text" name="部署" size="60" value="" placeholder="営業部営業一課" data-ng-model="department" />
+                                                <input type="text" name="部署" size="60"  placeholder="営業部営業一課" data-ng-model="department" />
                                             </div>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@
                                         <div class="c-forms__title">ご担当者氏名<span class="c-forms__label">必須</span></div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
-                                                <input type="text" name="ご担当者氏名" size="60" value="" placeholder="山田　太郎" data-ng-model="personname" />
+                                                <input type="text" name="ご担当者氏名" size="60"  placeholder="山田　太郎" data-ng-model="personname" />
                                                 <span data-ng-show="bPersonname">未入力です。</span>
                                             </div>
                                         </div>
@@ -64,7 +64,7 @@
                                         <div class="c-forms__title">フリガナ<span class="c-forms__label">必須</span></div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
-                                                <input type="text" name="フリガナ" size="60" value="" placeholder="ヤマダ　タロウ" data-ng-model="furigana" />
+                                                <input type="text" name="フリガナ" size="60"  placeholder="ヤマダ　タロウ" data-ng-model="furigana" />
                                                 <span data-ng-show="bFurigana">未入力です。</span>
                                             </div>
 
@@ -134,7 +134,7 @@
                                     </div>
                                 </div>
 
-                                <div class="c-forms__inner" data-ng-if="!bShowInfo">
+                                <div class="c-forms__inner" data-ng-show="!bShowInfo">
                                     <div class="row">
                                         <div class="large-10 is-push-lg-1 small-12">
                                             <div class="c-forms__heading c-heading is-md is-normal u-text-center is-bottom">
