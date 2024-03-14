@@ -37,6 +37,7 @@ public class Global : System.Web.HttpApplication
             routes.MapPageRoute("index", "index", "~/index.aspx");
             routes.MapPageRoute("contact", "contact", "~/contact.aspx");
             routes.MapPageRoute("flow", "flow", "~/flow.aspx");
+            routes.MapPageRoute("development", "development", "~/development.aspx");
         }
         catch (Exception ex)
         {
