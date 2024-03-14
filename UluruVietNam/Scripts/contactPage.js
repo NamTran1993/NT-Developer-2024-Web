@@ -53,13 +53,11 @@ app.controller('contactController', function ($scope) {
     $scope.phone = '';
     $scope.email = '';
     $scope.content = '';
-    $scope.chkAccept = false;
     $scope.bPersonname = false;
     $scope.bFurigana = false;
     $scope.bPhone = false;
     $scope.bEmail = false;
-    $scope.bAccept = false;
-    $scope.messageErrorEmail = '未入力です。';
+    $scope.messageErrorEmail = 'Hãy nhập thông tin';
 
     $scope.send = function () {
         let bValidate = $scope.validate();
@@ -70,7 +68,7 @@ app.controller('contactController', function ($scope) {
         }
 
         document.getElementById('item_1').className = 'c-form-head__item';
-        document.getElementById('item_3').className = 'c-form-head__item is-current';
+        document.getElementById('item_2').className = 'c-form-head__item is-current';
 
         var formData = new FormData();
         var files = document.getElementById('fileupload').files;
@@ -121,11 +119,9 @@ app.controller('contactController', function ($scope) {
         $scope.bFurigana = false;
         $scope.bPhone = false;
         $scope.bEmail = false;
-        $scope.bAccept = false;
 
         let validate = true;
 
-        debugger
         validate = $scope.checkRequire($scope.personname);
         if (!validate) $scope.bPersonname = true;
 
@@ -138,21 +134,16 @@ app.controller('contactController', function ($scope) {
         validate = $scope.checkRequire($scope.email);
         if (!validate) {
             $scope.bEmail = true;
-            $scope.messageErrorEmail = '未入力です。';
+            $scope.messageErrorEmail = 'Hãy nhập thông tin。';
         }
 
         if ($scope.checkRequire($scope.email)) {
             let valEmail = $scope.validateEmail($scope.email);
             if (!valEmail) {
                 validate = false;
-                $scope.messageErrorEmail = 'メールアドレスの形式ではありません。';
+                $scope.messageErrorEmail = 'Hãy nhập đúng định dạng';
                 $scope.bEmail = true;
             }
-        }
-
-        if (!$scope.chkAccept) {
-            validate = false;
-            $scope.bAccept = true;
         }
 
         return validate;
