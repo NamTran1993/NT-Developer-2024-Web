@@ -11579,7 +11579,7 @@ hr.is-line-double, .c-hr.is-line-double {
     text-decoration: none;
     padding-left: 3.25rem;
     margin: 1.25rem .75rem 0;
-    width: calc(100% / 4 - 24px);
+    width: calc(100% / 3 - 24px);
     color: #222;
     background: #fff;
     border-radius: 10px;
@@ -16438,7 +16438,7 @@ hr.is-line-double, .c-hr.is-line-double {
         right: -1.25rem;
         width: 59.875rem;
         height: 14.375rem;
-        background-image: url("../images/bg-features-text.png");
+      /*  background-image: url("../images/bg-features-text.png");*/
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover

@@ -6,12 +6,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head runat="server">
-    <title>うるるBPOのデータ入力サービス | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
+    <title>うるるBPOのDịch vụ | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="うるるBPOのデータ入力サービス | データ入力代行 の価格・料金のご案内。大口のご依頼で最大３０％ディスカウントいたします。データ入力の代行、外注をご検討中の お客様はお気軽にお問い合わせください。ご相談・お見積依頼は無料です。フリーダイヤル：0129-269-356" />
+    <meta name="description" content="うるるBPOのDịch vụ | データ入力代行 の価格・料金のご案内。大口のご依頼で最大３０％ディスカウントいたします。データ入力の代行、外注をご検討中の お客様はお気軽にお問い合わせください。ご相談・お見積依頼は無料です。フリーダイヤル：0129-269-356" />
 
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="icon" />
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="shortcut icon" />
@@ -400,7 +400,7 @@
                         <a href="#">ホーム</a>
                     </li>
                     <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">特長</span>
+                        <span data-accordion-title="menu-title">Về chúng tôi</span>
                         <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
                             <li>
                                 <a href="#">低価格実現のために</a>
@@ -417,7 +417,7 @@
                         </ul>
                     </li>
                     <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">データ入力サービス</span>
+                        <span data-accordion-title="menu-title">Dịch vụ</span>
                         <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
                             <li>
                                 <a href="#">アンケート入力・集計</a>
@@ -464,24 +464,14 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">活用事例</a>
-                    </li>
-                    <li>
-                        <a href="#">料金</a>
-                    </li>
-                    <li>
-                        <a href="#">ご利用の流れ</a>
-                    </li>
-                    <li>
-                        <a href="#">よくあるご質問</a>
-                    </li>
+                        <a href="#">Liên hệ</a>
+                    </li> 
                 </ul>
                 <div class="c-slidebar-menu__tel">
                     <a class="c-slidebar-menu__tel-link" href="tel:0120-269-356">
                         <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="" />
                         0120-269-356
                     </a>
-                    <small>受付時間：平日10:00～19:00</small>
                 </div>
                 <div class="c-slidebar-menu__button">
                     <a class="c-button" href="#">お問い合わせ・お見積り</a>
@@ -491,7 +481,7 @@
                 <div class="l-header__content">
                     <h1 class="l-header__heading">
                         <a href="#">
-                            <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="うるるBPOのデータ入力サービス" />
+                            <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="うるるBPOのDịch vụ" />
                         </a>
                     </h1>
                     <div class="l-header__achievement">
@@ -512,9 +502,8 @@
                                 <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="" />
                                 0120-269-356
                             </div>
-                            <small>受付時間：平日10:00～19:00</small>
                         </div>
-                        <a class="l-header__contact" href="contact">お問い合わせ・お見積り</a>
+                        <a class="l-header__contact" href="contact">Liên hệ</a>
                     </div>
                     <div class="l-header__other is-form" style="display: none;">
                         <div class="l-header__text">お電話でのお問い合わせ</div>
@@ -522,13 +511,12 @@
                             <div class="l-header__tels-text">
                                 <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="" />0120-269-356
                             </div>
-                            <small>受付時間：平日10:00～19:00</small>
                         </div>
                     </div>
                 </div>
                 <nav class="l-header__nav">
                     <div class="l-header__item">
-                        <a class="l-header__link" href="#">特長</a>
+                        <a class="l-header__link" href="#">Về chúng tôi</a>
                         <div class="c-over-menu  is-bg-opacity">
                             <div class="c-over-menu__wrap">
                                 <div class="c-over-menu__container">
@@ -567,7 +555,7 @@
                         </div>
                     </div>
                     <div class="l-header__item">
-                        <a class="l-header__link" href="#">データ入力サービス</a>
+                        <a class="l-header__link" href="#">Dịch vụ</a>
                         <div class="c-over-menu is-bg-opacity">
                             <div class="c-over-menu__wrap">
                                 <div class="c-over-menu__container">
@@ -691,16 +679,7 @@
 
                     </div>
                     <div class="l-header__item">
-                        <a class="l-header__link" href="#">活用事例</a>
-                    </div>
-                    <div class="l-header__item">
-                        <a class="l-header__link" href="#">料金</a>
-                    </div>
-                    <div class="l-header__item">
-                        <a class="l-header__link" href="#">ご利用の流れ</a>
-                    </div>
-                    <div class="l-header__item">
-                        <a class="l-header__link" href="#">よくあるご質問</a>
+                        <a class="l-header__link" href="#">Liên hệ</a>
                     </div>
                 </nav>
 
