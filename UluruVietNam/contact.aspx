@@ -15,15 +15,12 @@
                                 <div class="c-form-head__list">
                                     <div class="c-form-head__item is-current" id="item_1">
                                         <div class="c-form-head__item-number">1</div>
-                                        <div class="c-form-head__item-text">お客様情報入力</div>
+                                        <div class="c-form-head__item-text">Nhập thông tin</div>
                                     </div>
-                                    <div class="c-form-head__item">
+                                    
+                                    <div class="c-form-head__item" id="item_2">
                                         <div class="c-form-head__item-number">2</div>
-                                        <div class="c-form-head__item-text">入力内容の確認</div>
-                                    </div>
-                                    <div class="c-form-head__item" id="item_3">
-                                        <div class="c-form-head__item-number">3</div>
-                                        <div class="c-form-head__item-text">送信完了</div>
+                                        <div class="c-form-head__item-text">Hoàn thành</div>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +33,7 @@
                                     <div class="c-forms__text">お問い合わせ・お見積りなどのご相談は、下記のフォームに必要項目を入力しご送信ください。</div>
 
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title">貴社名</div>
+                                        <div class="c-forms__title">Tên công ty</div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
                                                 <input type="text" name="貴社名" size="60"  placeholder="株式会社カンパニー" data-ng-model="company" />
@@ -44,7 +41,7 @@
                                         </div>
                                     </div>
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title">部署</div>
+                                        <div class="c-forms__title">Chức vụ</div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
                                                 <input type="text" name="部署" size="60"  placeholder="営業部営業一課" data-ng-model="department" />
@@ -52,35 +49,26 @@
                                         </div>
                                     </div>
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title">ご担当者氏名<span class="c-forms__label">必須</span></div>
+                                        <div class="c-forms__title">Người liên hệ<span class="c-forms__label">必須</span></div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
                                                 <input type="text" name="ご担当者氏名" size="60"  placeholder="山田　太郎" data-ng-model="personname" />
-                                                <span data-ng-show="bPersonname">未入力です。</span>
+                                                <span data-ng-show="bPersonname">Hãy nhập thông tin</span>
                                             </div>
                                         </div>
                                     </div>
+                                   
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title">フリガナ<span class="c-forms__label">必須</span></div>
-                                        <div class="c-forms__content">
-                                            <div class="c-forms__input">
-                                                <input type="text" name="フリガナ" size="60"  placeholder="ヤマダ　タロウ" data-ng-model="furigana" />
-                                                <span data-ng-show="bFurigana">未入力です。</span>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="c-forms__block">
-                                        <div class="c-forms__title">TEL<span class="c-forms__label">必須</span></div>
+                                        <div class="c-forms__title">Điện thoại<span class="c-forms__label">必須</span></div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
                                                 <input type="text" size="60" placeholder="123-456-789" data-ng-model="phone" />
-                                                <span data-ng-show="bPhone">未入力です。</span>
+                                                <span data-ng-show="bPhone">Hãy nhập thông tin</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title">メールアドレス<span class="c-forms__label">必須</span></div>
+                                        <div class="c-forms__title">Email<span class="c-forms__label">必須</span></div>
                                         <div class="c-forms__content">
                                             <div class="c-forms__input">
                                                 <input type="text" name="メールアドレス" size="60" placeholder="info@mail.com" data-ng-model="email" />
@@ -89,7 +77,7 @@
                                         </div>
                                     </div>
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title is-vertical-top">アップロード機能</div>
+                                        <div class="c-forms__title is-vertical-top">File đính kèm</div>
                                         <div class="c-forms__content">
                                             <p>
                                                 <small class="u-hidden-mw-wp-confirm">※サンプルや参考資料などありましたら添付してください<br />
@@ -103,7 +91,7 @@
                                         </div>
                                     </div>
                                     <div class="c-forms__block">
-                                        <div class="c-forms__title is-vertical-top">お問い合わせ内容</div>
+                                        <div class="c-forms__title is-vertical-top">Nội dụng liên hệ</div>
                                         <div class="c-forms__content">
                                             <p><small class="u-hidden-mw-wp-confirm">データ化する原本（冊子・名簿など）、数量、ご希望納期、その他ご要望をご記入ください。</small></p>
                                             <div class="c-forms__textarea">
@@ -111,26 +99,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="c-forms__privacy">
-                                        <label>
-                                            <span class="mwform-checkbox-field horizontal-item">
-                                                <label for="privacy-policy-1">
-                                                    <input type="checkbox" name="個人情報保護方針[data][]" value=" " id="privacy-policy-1" data-ng-model="chkAccept" />
-                                                    <span class="mwform-checkbox-field-text"></span>
-                                                </label>
-                                            </span>
-
-                                            <input type="hidden" name="個人情報保護方針[separator]" value="," />
-
-                                            <input type="hidden" name="__children[個人情報保護方針][]" value="{&quot; &quot;:&quot; &quot;}" />
-                                            <a href="#" rel="noopener">個人情報保護方針</a>の内容に同意する
-                                        </label>
-                                        <div>
-                                            <span data-ng-show="bAccept">未入力です。</span>
-                                        </div>
-                                    </div>
                                     <div class="c-forms__submit">
-                                        <button type="button" name="submit" value="send" class="c-button is-xlg" data-ng-click="send()">送信する</button>
+                                        <button type="button" name="submit" value="send" class="c-button is-xlg" data-ng-click="send()">Send Mail</button>
                                     </div>
                                 </div>
 
