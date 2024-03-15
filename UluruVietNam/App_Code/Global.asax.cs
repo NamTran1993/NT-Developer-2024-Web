@@ -16,16 +16,9 @@ public class Global : System.Web.HttpApplication
 
     private void RegisterRoutes(RouteCollection routes)
     {
-        try
-        {
-            routes.MapPageRoute("index", "index", "~/index.aspx");
-            routes.MapPageRoute("contact", "contact", "~/contact.aspx");
-            routes.MapPageRoute("flow", "flow", "~/flow.aspx");
-            routes.MapPageRoute("development", "development", "~/development.aspx");
-        }
-        catch (Exception ex)
-        {
-
-        }
+        routes.MapPageRoute("index", "index", "~/index.aspx");
+        routes.MapPageRoute("contact", "contact", "~/contact.aspx");
+        routes.MapPageRoute("flow", "flow", "~/flow.aspx");
+        routes.MapPageRoute("development", "development", "~/development.aspx");
     }
 }
