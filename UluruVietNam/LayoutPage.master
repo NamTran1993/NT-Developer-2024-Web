@@ -48,6 +48,18 @@
 <body>
     <form id="pageMaster" runat="server">
         <div>
+             <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL87CQ4"
+                    height="0" width="0" style="display: none; visibility: hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+            <a class="c-slidebar-button js-slidebar-button" href="#">
+                <div class="c-slidebar-button__inner">
+                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">メニュー</span><span class="c-slidebar-button__text is-close">閉じる</span>
+                </div>
+            </a>
+
             <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom">
                 <ul>
                     <li>
