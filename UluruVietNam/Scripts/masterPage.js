@@ -1,7 +1,7 @@
 ﻿var app = angular.module('app', []);
 var scope = null;
 
-app.controller('masterController', function ($scope) {
+app.controller('masterController', function ($scope, $sce) {
     console.log('masterPage');
 
     this.scope = $scope;
@@ -30,15 +30,16 @@ app.controller('masterController', function ($scope) {
         return value;
     };
 
-    let currentInit = new Date();
+    $scope.bDate = false;
 
-    $scope.seconds = $scope.convertDateTime(currentInit.getSeconds().toString());
-    $scope.minutes = $scope.convertDateTime(currentInit.getMinutes().toString());
-    $scope.hours = $scope.convertDateTime(currentInit.getHours().toString());
-    $scope.days = $scope.convertDateTime(currentInit.getDate().toString());
-    $scope.month = $scope.convertDateTime((currentInit.getMonth() + 1).toString());
-    $scope.year = currentInit.getFullYear();
+    $scope.seconds = '';
+    $scope.minutes = ''
+    $scope.hours = ''
+    $scope.days = ''
+    $scope.month = '';
+    $scope.year = '';
 
+    $scope.bShow = false;
     $scope.getCurrent = function () {
         let current = new Date();
         $scope.seconds = $scope.convertDateTime(current.getSeconds().toString());
@@ -47,18 +48,17 @@ app.controller('masterController', function ($scope) {
         $scope.days = $scope.convertDateTime(current.getDate().toString());
         $scope.month = $scope.convertDateTime((current.getMonth() + 1).toString());
         $scope.year = current.getFullYear();
-
-
         $scope.updateUI();
+
+        if (!$scope.bShow) {
+            this.document.getElementById('headerCount').style.visibility = 'visible';
+            $scope.bShow = true;
+        }
     };
-
-    
-
-    
 
     setInterval($scope.getCurrent, 1000);
 });
 
 window.addEventListener('load', function () {
-    console.log('load');
+    
 });

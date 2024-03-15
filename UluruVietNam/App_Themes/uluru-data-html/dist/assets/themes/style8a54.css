@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+
+
 .p-post-item.is-horizon, .p-post-item.is-line, .p-profile-box {
     zoom: 1
 }
@@ -15,7 +21,7 @@
 html {
     overflow-x: hidden;
     font-size: 16px;
-    font-family: "Noto Sans JP",sans-serif;
+    font-family: 'sans-serif';
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
