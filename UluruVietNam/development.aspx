@@ -19,12 +19,12 @@
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/img-block-features-first-02.png" alt="">
                                 </div>
                                 <div class="c-block-slip-first__list">
-                                    <div class="c-block-slip-first__item">紙ベースでやってきた名簿管理を、<span>エクセルや顧客名簿ソフト</span>で管理したい            </div>
-                                    <div class="c-block-slip-first__item">昔の紙媒体の名簿をデータ化し、<span>DM</span>を簡単に作成できるようにしたい            </div>
-                                    <div class="c-block-slip-first__item">大量の返信ハガキの顧客情報を全て表にまとめ、<span>エクセル</span>で顧客名簿として管理したい            </div>
-                                    <div class="c-block-slip-first__item">数十年前の紙媒体の顧客リストを、現在の<span>エクセル顧客名簿</span>に追加登録したい            </div>
-                                    <div class="c-block-slip-first__item">選挙名簿を入力して、<span>選挙用のハガキ</span>へ印字し送付したい            </div>
-                                    <div class="c-block-slip-first__item">同窓会名簿などの住所録から、<span>通知のハガキ</span>を送付したい            </div>
+                                    <div class="c-block-slip-first__item">紙ベースでやってきた名簿管理を、<span>エクセルや顧客名簿ソフト</span>で管理したい</div>
+                                    <div class="c-block-slip-first__item">昔の紙媒体の名簿をデータ化し、<span>DM</span>を簡単に作成できるようにしたい</div>
+                                    <div class="c-block-slip-first__item">大量の返信ハガキの顧客情報を全て表にまとめ、<span>エクセル</span>で顧客名簿として管理したい</div>
+                                    <div class="c-block-slip-first__item">数十年前の紙媒体の顧客リストを、現在の<span>エクセル顧客名簿</span>に追加登録したい</div>
+                                    <div class="c-block-slip-first__item">選挙名簿を入力して、<span>選挙用のハガキ</span>へ印字し送付したい</div>
+                                    <div class="c-block-slip-first__item">同窓会名簿などの住所録から、<span>通知のハガキ</span>を送付したい</div>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                                         名簿に記載のない情報を<br />
                                         入力することで付加価値を           
                                     </div>
-                                    <div class="c-block-solution__text">企業の公式HP等を検索し、資本金や代表者名、業務内容を調べて補完入力も行えます。補完することでより高度なマーケティングが可能となります。            </div>
+                                    <div class="c-block-solution__text">企業の公式HP等を検索し、資本金や代表者名、業務内容を調べて補完入力も行えます。補完することでより高度なマーケティングが可能となります。</div>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +60,8 @@
                                     <div class="bg-img" style="background-image: url(https://www.uluru.jp/wp-content/uploads/2022/01/img-block-solution-25.jpg"></div>
                                 </div>
                                 <div class="c-block-solution__content">
-                                    <div class="c-block-solution__title">短納期・至急対応可能            </div>
-                                    <div class="c-block-solution__text">弊社では提携する入力作業センターが多数存在します。入力オペレーターも数千人規模となり、あらゆる納期に対応することが可能です。            </div>
+                                    <div class="c-block-solution__title">短納期・至急対応可能</div>
+                                    <div class="c-block-solution__text">弊社では提携する入力作業センターが多数存在します。入力オペレーターも数千人規模となり、あらゆる納期に対応することが可能です。</div>
                                 </div>
                             </div>
                         </div>
@@ -72,8 +72,8 @@
                                     <div class="bg-img" style="background-image: url(https://www.uluru.jp/wp-content/uploads/2022/01/img-block-solution-22.jpg"></div>
                                 </div>
                                 <div class="c-block-solution__content">
-                                    <div class="c-block-solution__title">入力後の工程をトータルサポート            </div>
-                                    <div class="c-block-solution__text">入力したデータを使用してのDM発送、商品発送。アウトバウンドコールや集計等、お客様の『真の目的』にも対応致します            </div>
+                                    <div class="c-block-solution__title">入力後の工程をトータルサポート</div>
+                                    <div class="c-block-solution__text">入力したデータを使用してのDM発送、商品発送。アウトバウンドコールや集計等、お客様の『真の目的』にも対応致します</div>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="c-flow__item-title">
                                     原本お預かり・<br>
-                                    スキャニング作業                       
+                                    スキャニング作業           
                                 </div>
                             </div>
                         </div>
@@ -146,8 +146,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="c-flow__text">※ ご発注の最低料金は<span>「枚数 x 単価で7万円（税別）」</span>に満たない場合は、一律7万円（税別）での対応となります。            </div>
-                    <div class="c-flow__button"><a class="c-button" href="index">流れを詳しく見る</a>            </div>
+                    <div class="c-flow__text">※ ご発注の最低料金は<span>「枚数 x 単価で7万円（税別）」</span>に満たない場合は、一律7万円（税別）での対応となります。</div>
+                    <div class="c-flow__button"><a class="c-button" href="index">流れを詳しく見る</a></div>
                 </div>
             </div>
         </section>

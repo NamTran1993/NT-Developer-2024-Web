@@ -2,8 +2,6 @@
 var scope = null;
 
 app.controller('contactController', function ($scope) {
-    console.log('contactPage');
-
     this.scope = $scope;
 
     $scope.urlPostData = '../Ajax/POSTData.ashx';

@@ -2,8 +2,6 @@
 var scope = null;
 
 app.controller('masterController', function ($scope, $sce) {
-    console.log('masterPage');
-
     this.scope = $scope;
 
     $scope.applyDelay = null;
@@ -38,8 +36,8 @@ app.controller('masterController', function ($scope, $sce) {
     $scope.days = ''
     $scope.month = '';
     $scope.year = '';
-
     $scope.bShow = false;
+
     $scope.getCurrent = function () {
         let current = new Date();
         $scope.seconds = $scope.convertDateTime(current.getSeconds().toString());
@@ -57,8 +55,4 @@ app.controller('masterController', function ($scope, $sce) {
     };
 
     setInterval($scope.getCurrent, 1000);
-});
-
-window.addEventListener('load', function () {
-    
 });
