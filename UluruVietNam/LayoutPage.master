@@ -487,8 +487,8 @@
                     </h1>
                     <div class="l-header__achievement" data-ng-controller="masterController">
                         <div class="l-header__label">取引実績</div>
-                        <div class="l-header__counts">
-                            <div class="l-header__count">
+                        <div class="l-header__counts" id="headerCount" style="visibility: hidden">
+                            <div class="l-header__count" >
                                 <span>{{year}}</span>
                                 <span>{{month}}</span>
                                 <span>{{days}}</span>
@@ -496,7 +496,7 @@
                             <div class="l-header__count">
                                 <span>{{hours}}</span>
                                 <span>{{minutes}}</span>
-                                <span>{{seconds}}</span>		
+                                <span>{{seconds}}</span>
                             </div>
                         </div>
                     </div>

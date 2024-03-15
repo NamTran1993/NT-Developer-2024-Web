@@ -147,7 +147,7 @@
                         </div>
                     </div>
                     <div class="c-flow__text">※ ご発注の最低料金は<span>「枚数 x 単価で7万円（税別）」</span>に満たない場合は、一律7万円（税別）での対応となります。            </div>
-                    <div class="c-flow__button"><a class="c-button" href="../../flow/index.html">流れを詳しく見る</a>            </div>
+                    <div class="c-flow__button"><a class="c-button" href="index">流れを詳しく見る</a>            </div>
                 </div>
             </div>
         </section>
