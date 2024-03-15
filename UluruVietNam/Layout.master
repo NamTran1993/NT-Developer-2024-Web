@@ -4,7 +4,7 @@
 <%@ Register Src="~/UserControl/VersionFooter.ascx" TagName="VersionFooter" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="vi">
 <head runat="server">
     <title>うるるBPOのデータ入力サービス | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />

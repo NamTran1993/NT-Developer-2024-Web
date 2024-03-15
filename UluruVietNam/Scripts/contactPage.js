@@ -134,7 +134,7 @@ app.controller('contactController', function ($scope) {
         validate = $scope.checkRequire($scope.email);
         if (!validate) {
             $scope.bEmail = true;
-            $scope.messageErrorEmail = 'Hãy nhập thông tin。';
+            $scope.messageErrorEmail = 'Hãy nhập thông tin';
         }
 
         if ($scope.checkRequire($scope.email)) {

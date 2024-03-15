@@ -4,7 +4,7 @@
 <%@ Register Src="~/UserControl/VersionFooter.ascx" TagName="VersionFooter" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="vi">
 <head runat="server">
     <title>うるるBPOのDịch vụ | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
@@ -20,6 +20,7 @@
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery/jquery.js")%>"></script>
     <link href="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.css")%>" rel="stylesheet" />
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
+    <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
@@ -478,20 +479,24 @@
                 </div>
             </div>
             <header class="l-header">
-                <div class="l-header__content">
+                <div class="l-header__content" data-ng-app="app">
                     <h1 class="l-header__heading">
-                        <a href="#">
+                        <a href="index">
                             <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="うるるBPOのDịch vụ" />
                         </a>
                     </h1>
-                    <div class="l-header__achievement">
+                    <div class="l-header__achievement" data-ng-controller="masterController">
                         <div class="l-header__label">取引実績</div>
                         <div class="l-header__counts">
                             <div class="l-header__count">
-                                <span>5</span><span>3</span><span>9</span><span>6</span>				<small>社</small>
+                                <span>{{year}}</span>
+                                <span>{{month}}</span>
+                                <span>{{days}}</span>
                             </div>
                             <div class="l-header__count">
-                                <span>2</span><span>9</span><span>8</span><span>2</span><span>7</span>				<small>案件</small>
+                                <span>{{hours}}</span>
+                                <span>{{minutes}}</span>
+                                <span>{{seconds}}</span>		
                             </div>
                         </div>
                     </div>
@@ -587,6 +592,7 @@
         <uc1:LoadingUI runat="server" ID="LoadingUI" />
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
         <div id="_divHiden" style="display: none"></div>
+        <script src="<%=ResolveUrl("~/Scripts/masterPage.js?ver=1.0.0.0")%>"></script>
     </form>
 </body>
 </html>
