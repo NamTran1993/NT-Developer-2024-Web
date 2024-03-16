@@ -54,7 +54,7 @@ app.controller('contactController', function ($scope) {
     $scope.bFurigana = false;
     $scope.bPhone = false;
     $scope.bEmail = false;
-    $scope.messageErrorEmail = '';
+    $scope.messageErrorEmail = 'Hãy nhập thông tin';
 
     $scope.send = function () {
         let bValidate = $scope.validate();
