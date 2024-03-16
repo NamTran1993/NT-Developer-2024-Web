@@ -43,6 +43,7 @@ public class PostData : IHttpHandler
                         bool bSendMail = ConfigUtility.GetBool("mail.send");
                         if (bSendMail)
                         {
+                            string pathTemplate = Path.Combine(context.Server.MapPath("~/App_Themes"), "template", "email", "t_email.html");
                             MailUtility mailUtility = new MailUtility(new MailModel()
                             {
                                 SmtpServerName = ConfigUtility.GetString("mail.smtp.server"),
@@ -50,13 +51,9 @@ public class PostData : IHttpHandler
                                 SmtpUserName = ConfigUtility.GetString("mail.from"),
                                 FromMailAddress = ConfigUtility.GetString("mail.from"),
                                 SmtpPassword = ConfigUtility.GetString("mail.pass"),
-                                SendMailAddress = contactInfo.Email,
-                                Subject = "UluruVN",
-                                Attach = attachment,
-                                Body = "HI",
                                 SmtpAuth = true,
                                 SecureConnect = true,
-                            });
+                            }, contactInfo, pathTemplate);
 
                             mailUtility.SendMail();
                         }
