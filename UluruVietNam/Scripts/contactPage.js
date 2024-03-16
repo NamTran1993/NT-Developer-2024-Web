@@ -47,7 +47,6 @@ app.controller('contactController', function ($scope) {
     $scope.company = '';
     $scope.department = '';
     $scope.personname = '';
-    $scope.furigana = '';
     $scope.phone = '';
     $scope.email = '';
     $scope.content = '';
@@ -55,7 +54,7 @@ app.controller('contactController', function ($scope) {
     $scope.bFurigana = false;
     $scope.bPhone = false;
     $scope.bEmail = false;
-    $scope.messageErrorEmail = 'Hãy nhập thông tin';
+    $scope.messageErrorEmail = '';
 
     $scope.send = function () {
         let bValidate = $scope.validate();

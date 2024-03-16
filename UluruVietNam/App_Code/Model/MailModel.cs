@@ -13,6 +13,7 @@ public class MailModel
     private string _body = string.Empty;
     private string _attach = string.Empty;
     private bool _secureConnect = false;
+    private object _content = null; 
 
     public string SmtpServerName
     {
@@ -167,6 +168,19 @@ public class MailModel
         set
         {
             _secureConnect = value;
+        }
+    }
+
+    public object Content
+    {
+        get
+        {
+            return _content;
+        }
+
+        set
+        {
+            _content = value;
         }
     }
 }
