@@ -15,10 +15,10 @@ public class MailUtility
 
     public bool SendMail()
     {
+        SmtpClient smtp = new SmtpClient();
         try
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | (SecurityProtocolType)768 | (SecurityProtocolType)3072;
-            SmtpClient smtp = new SmtpClient();
             MailMessage msg = new MailMessage();
             Encoding myEnc = Encoding.GetEncoding("iso-2022-jp");
 
@@ -40,7 +40,7 @@ public class MailUtility
 
             msg.From = new MailAddress(this._mailModel.FromMailAddress);
             msg.To.Add(new MailAddress(this._mailModel.SendMailAddress));
-            msg.Subject = this._mailModel.Subject; 
+            msg.Subject = this._mailModel.Subject;
 
             if (this._mailModel.Bcc != "")
             {
@@ -62,8 +62,12 @@ public class MailUtility
             smtp.Send(msg);
             return true;
         }
-        catch (Exception ex)
+        catch
         { }
+        finally
+        {
+            smtp.Dispose();
+        }
         return false;
     }
 }

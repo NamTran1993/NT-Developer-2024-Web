@@ -40,22 +40,26 @@ public class PostData : IHttpHandler
                         }
 
                         // SEND EMAIL
-                        MailUtility mailUtility = new MailUtility(new MailModel()
+                        bool bSendMail = ConfigUtility.GetBool("mail.send");
+                        if (bSendMail)
                         {
-                            SmtpServerName = "smtp.gmail.com",
-                            Port = 587,
-                            SmtpUserName = "noreplayuluvn@gmail.com",
-                            SmtpPassword = "xobs lexo atde wxtq",
-                            SecureConnect = true,
-                            FromMailAddress = "noreplayuluvn@gmail.com",
-                            SendMailAddress = contactInfo.Email,
-                            Subject = "UluruVN",
-                            Attach = attachment,
-                            Body = "HI",
-                            SmtpAuth = true
-                        });
+                            MailUtility mailUtility = new MailUtility(new MailModel()
+                            {
+                                SmtpServerName = ConfigUtility.GetString("mail.smtp.server"),
+                                Port = ConfigUtility.GetInt("mail.port"),
+                                SmtpUserName = ConfigUtility.GetString("mail.from"),
+                                FromMailAddress = ConfigUtility.GetString("mail.from"),
+                                SmtpPassword = ConfigUtility.GetString("mail.pass"),
+                                SendMailAddress = contactInfo.Email,
+                                Subject = "UluruVN",
+                                Attach = attachment,
+                                Body = "HI",
+                                SmtpAuth = true,
+                                SecureConnect = true,
+                            });
 
-                        mailUtility.SendMail();
+                            mailUtility.SendMail();
+                        }
                     }
 
                     break;

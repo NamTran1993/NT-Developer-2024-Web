@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.IO;
+﻿using System.IO;
 using System.Web;
 
 public static class JsonUtility
@@ -10,12 +8,11 @@ public static class JsonUtility
         try
         {
             if (obj != null)
-                return JsonConvert.SerializeObject(obj);
+                return Newtonsoft.Json.JsonConvert.SerializeObject(obj);
             return string.Empty;
         }
-        catch (Exception ex)
+        catch
         {
-
         }
         return "";
     }
@@ -24,11 +21,10 @@ public static class JsonUtility
     {
         try
         {
-            return JsonConvert.DeserializeObject<T>(obj);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(obj);
         }
-        catch (Exception ex)
+        catch
         {
-
         }
         return default(T);
     }
@@ -46,11 +42,9 @@ public static class JsonUtility
             }
             return jsonString;
         }
-        catch (Exception ex)
+        catch
         {
         }
         return string.Empty;
     }
-
-
 }
