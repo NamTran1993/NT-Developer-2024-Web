@@ -53,6 +53,7 @@ public class PostData : IHttpHandler
                                 SmtpPassword = ConfigUtility.GetString("mail.pass"),
                                 SmtpAuth = true,
                                 SecureConnect = true,
+                                Attach = attachment
                             }, contactInfo, pathTemplate);
 
                             mailUtility.SendMail();
