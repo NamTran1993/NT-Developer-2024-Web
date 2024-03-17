@@ -22,6 +22,7 @@
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
 
+
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
     <style type="text/css">
@@ -130,7 +131,7 @@
                 <div class="c-slidebar-menu__tel">
                     <a class="c-slidebar-menu__tel-link" href="tel:0120-269-356">
                         <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="" />
-                        0120-269-356
+                        0866-507-268
                     </a>
                 </div>
                 <div class="c-slidebar-menu__button">
@@ -145,17 +146,11 @@
                         </a>
                     </h1>
                     <div class="l-header__achievement" data-ng-controller="masterController">
-                        <div class="l-header__label">取引実績</div>
+                        <div class="l-header__label">Chào mừng bạn đến với LEON II</div>
                         <div class="l-header__counts" id="headerCount" style="visibility: hidden">
-                            <div class="l-header__count" >
-                                <span>{{year}}</span>
+                            <div class="l-header__count">
                                 <span>{{month}}</span>
                                 <span>{{days}}</span>
-                            </div>
-                            <div class="l-header__count">
-                                <span>{{hours}}</span>
-                                <span>{{minutes}}</span>
-                                <span>{{seconds}}</span>
                             </div>
                         </div>
                     </div>
@@ -164,10 +159,10 @@
                         <div class="l-header__tels">
                             <div class="l-header__tels-text">
                                 <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="" />
-                                0120-269-356
+                                0866-507-268
                             </div>
                         </div>
-                        <a class="l-header__contact" href="contact">Liên hệ</a>
+                        <a class="l-header__contact" href="contact">Liên hệ & Đặt lịch tư vấn</a>
                     </div>
                     <div class="l-header__other is-form" style="display: none;">
                         <div class="l-header__text">お電話でのお問い合わせ</div>
@@ -241,6 +236,7 @@
             </main>
 
             <footer class="l-footer">
+
                 <uc1:VersionFooter ID="ContentPlaceHolderFoot" runat="server" />
                 <div>
                     <asp:ContentPlaceHolder ID="ContentPlaceBodyFooter" runat="server">

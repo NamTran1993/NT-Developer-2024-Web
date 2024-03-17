@@ -28,24 +28,14 @@ app.controller('masterController', function ($scope, $sce) {
         return value;
     };
 
-    $scope.bDate = false;
-
-    $scope.seconds = '';
-    $scope.minutes = ''
-    $scope.hours = ''
     $scope.days = ''
     $scope.month = '';
-    $scope.year = '';
     $scope.bShow = false;
 
     $scope.getCurrent = function () {
         let current = new Date();
-        $scope.seconds = $scope.convertDateTime(current.getSeconds().toString());
-        $scope.minutes = $scope.convertDateTime(current.getMinutes().toString());
-        $scope.hours = $scope.convertDateTime(current.getHours().toString());
         $scope.days = $scope.convertDateTime(current.getDate().toString());
         $scope.month = $scope.convertDateTime((current.getMonth() + 1).toString());
-        $scope.year = current.getFullYear();
         $scope.updateUI();
 
         if (!$scope.bShow) {
