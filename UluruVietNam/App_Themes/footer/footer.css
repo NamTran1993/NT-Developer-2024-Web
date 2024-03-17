@@ -1,17 +1,4 @@
-﻿
-
-
-
-
-
-
-
-
-
-
-
-
-a {
+﻿a {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
@@ -290,7 +277,6 @@ pre {
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
     padding-left: 15px
 }
 
@@ -26344,7 +26330,7 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .pd-35-footer {
-    padding-left: 35px
+    /*padding-left: 35px*/
 }
 
 .pd-71-footer {
