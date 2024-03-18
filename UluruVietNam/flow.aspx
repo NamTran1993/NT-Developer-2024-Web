@@ -24,7 +24,7 @@
                                 <div class="c-flow-flex__text">
                                     Mặc dù mới được thành lập tuy nhiên Leon II có đội ngũ kỹ sư nhiều năm kinh nghiệm làm việc tại Nhật, cung cấp giải pháp<br />
                                     <br />
-                                    Chúng tôi mang đến đa dạng dịch vụ cho khách hàng bao gồm:
+                                    Chúng tôi mang đến đa dạng dịch vụ cho khách hàng bao gồm: <br />
                                     （１）Phát triển Website & Ứng dụng<br /><br />
                                     （２）Tư vấn Giải pháp Chuyển đổi số Doanh nghiệp<br /><br />
                                     （３）Phát triển hệ thống tích hợp IoT<br /><br />

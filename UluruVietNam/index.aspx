@@ -128,13 +128,38 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
             </div>
 
             <div class="row project">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/pj2.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/pj3.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/pj4.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/pj5.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-eiwa.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-asahipaper.png" alt="Card image" style="width: 100%">
-                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-acreek.png" alt="Card image" style="width: 100%">
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/pj2.png">
+                </div>
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/pj3.png">
+                </div>
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/pj4.png">
+                </div>
+
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/pj5.png">
+                </div>
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/logo-eiwa.png">
+                </div>
+
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/logo-asahipaper.png">
+                </div>
+
+                <div class="bg-img">
+                    <img src="App_Themes/upload/2024/10/logo-acreek.png">
+                </div>
+
+
+
             </div>
 
             <script>
@@ -145,7 +170,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                     autoplaySpeed: 0,
                     speed: 5000,
                     pauseOnHover: false,
-                    cssEase: 'linear'
+                    cssEase: 'linear',
                 });
             </script>
         </section>
