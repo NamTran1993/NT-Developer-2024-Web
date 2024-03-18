@@ -21,6 +21,7 @@
     <link href="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.css")%>" rel="stylesheet" />
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
+    <script src="<%=ResolveUrl("~/Scripts/lib/slick-1.8.1/slick.js")%>"></script>
 
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
@@ -38,12 +39,24 @@
             background: none !important;
             padding: 0 !important;
         }
+
+        ::-webkit-scrollbar {
+            -webkit-appearance: none;
+            width: 10px;
+            background-color: lightgrey;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: brown
+        }
     </style>
 
     <link href="<%=ResolveUrl("~/App_Themes/block-library/style.min6a4d.css??ver=1.0.0.0")%>" rel="stylesheet" type='text/css' media='all' />
     <link href="<%=ResolveUrl("~/App_Themes/table-of-contents-plus/screen.min5544.css?ver=1.0.0.0")%>" rel="stylesheet" type='text/css' media='all' />
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/themes/app8a54.css?ver=1.0.0.0")%>" rel="stylesheet" />
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/themes/style8a54.css?ver=1.0.0.0")%>" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~/Scripts/lib/slick-1.8.1/slick.css?ver=1.0.0.0")%>" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~/Scripts/lib/slick-1.8.1/slick-theme.css?ver=1.0.0.0")%>" rel="stylesheet" />
 </head>
 
 <body>
