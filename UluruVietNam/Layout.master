@@ -21,7 +21,6 @@
     <link href="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.css")%>" rel="stylesheet" />
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
-
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
     <style type="text/css">
@@ -36,6 +35,16 @@
             vertical-align: -0.1em !important;
             background: none !important;
             padding: 0 !important;
+        }
+
+        ::-webkit-scrollbar {
+            -webkit-appearance: none;
+            width: 10px;
+            background-color: lightgrey;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: brown
         }
     </style>
 

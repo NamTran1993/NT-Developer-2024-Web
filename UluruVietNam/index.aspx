@@ -127,27 +127,27 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                 </div>
             </div>
 
-            <div class="c-loop-slider__inner is-bottom slick-initialized slick-slider">
-                <marquee>
-                    <div class="slick-track" style="opacity: 1; transition: transform 2300ms linear 0s;">
-                        <div class="c-loop-slider__image slick-slide slick-cloned">
-                            <div class="bg-img" style="background-image: url(App_Themes/upload/2024/10/Logo_MITSUICO_HORIZONTAL_Black_Transparent-background.png)"></div>
-                        </div>
-                        <div class="c-loop-slider__image slick-slide slick-current slick-active">
-                            <div class="bg-img" style="background-image: url(App_Themes/upload/2024/10/logo-acreek.png)"></div>
-                        </div>
-                        <div class="c-loop-slider__image slick-slide">
-                            <div class="bg-img" style="background-image: url(App_Themes/upload/2024/10/logo-asahipaper.png)"></div>
-                        </div>
-                        <div class="c-loop-slider__image slick-slide">
-                            <div class="bg-img" style="background-image: url(App_Themes/upload/2024/10/logo-eiwa.png)"></div>
-                        </div>
-                        <div class="c-loop-slider__image slick-slide">
-                            <div class="bg-img" style="background-image: url(App_Themes/upload/2024/10/logo-saroute.png)"></div>
-                        </div>
-                    </div>
-                </marquee>
+            <div class="row project">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/pj2.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/pj3.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/pj4.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/pj5.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-eiwa.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-asahipaper.png" alt="Card image" style="width: 100%">
+                <img class="card-img-top" src="App_Themes/upload/2024/10/logo-acreek.png" alt="Card image" style="width: 100%">
             </div>
+
+            <script>
+                $('.project').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 0,
+                    speed: 5000,
+                    pauseOnHover: false,
+                    cssEase: 'linear'
+                });
+            </script>
         </section>
 
         <section class="l-section is-bg-color is-features">

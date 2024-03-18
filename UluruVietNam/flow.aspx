@@ -20,33 +20,16 @@
                         <div class="c-flow-flex__item">
                             <div class="c-flow-flex__number">06</div>
                             <div class="c-flow-flex__content">
-                                <div class="c-flow-flex__title">データ入力作業</div>
+                                <div class="c-flow-flex__title">LEON II được thành lập vào tháng 7 năm 2022. </div>
                                 <div class="c-flow-flex__text">
-                                    お客様からのご要望やご希望、サービス仕様にもとづいて、データ入力を施工いたします。<br />
+                                    Mặc dù mới được thành lập tuy nhiên Leon II có đội ngũ kỹ sư nhiều năm kinh nghiệm làm việc tại Nhật, cung cấp giải pháp<br />
                                     <br />
-                                    （１）プログラム作成<br />
-                                    データ入力仕様書作成、入力フォーマット作成（受領）、入力テスト<br />
-                                    <br />
-                                    （２）デリバリー（受領）<br />
-                                    入稿、集荷、数量確認、状態確認、装備・設備のチェック<br />
-                                    <br />
-                                    （３）前作業<br />
-                                    バッチ分け、顧客から要求された付属作業<br />
-                                    <br />
-                                    （４）入力作業<br />
-                                    仕様の指示、習熟度合いの確認、着手後の不具合QA出し<br />
-                                    <br />
-                                    （５）終作業<br />
-                                    バッチ戻し、終了の確認<br />
-                                    <br />
-                                    （６）成果物の作成<br />
-                                    仕様に沿った成果物の作成、中間ファイルの削除、入力データ検品・ロジックチェック<br />
-                                    <br />
-                                    （７）デリバリー（返却）<br />
-                                    成果物(媒体)の納品、原稿の返却、廃棄・溶解処分<br />
-                                    <br />
-                                    （８）納品・保管<br />
-                                    原稿保管、データ消去
+                                    Chúng tôi mang đến đa dạng dịch vụ cho khách hàng bao gồm:
+                                    （１）Phát triển Website & Ứng dụng<br /><br />
+                                    （２）Tư vấn Giải pháp Chuyển đổi số Doanh nghiệp<br /><br />
+                                    （３）Phát triển hệ thống tích hợp IoT<br /><br />
+                                    （４）Cung cấp trang thiết bị văn phòng, trường học<br /><br />
+                                    Với phương châm “Behind your success”, LEON II tự tin là đơn vị cung cấp dịch vụ/giải pháp CNTT uy tín, tối ưu hóa và kiến tạo giá trị riêng cho doanh nghiệp của bạn
                                 </div>
                             </div>
                         </div>
