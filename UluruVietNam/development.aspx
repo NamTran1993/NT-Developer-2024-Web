@@ -12,19 +12,18 @@
                     <div class="l-container">
                         <div class="c-block-slip-first__content">
                             <div class="c-block-slip-first__comment">
-                                <div class="c-block-slip-first__comment-inner">こんな<span>お</span><span>悩</span><span>み</span>ございませんか？    </div>
+                                <div class="c-block-slip-first__comment-inner">Tại <span>sao </span><span>nên </span><span>chọn </span>Leon II？    </div>
                             </div>
                             <div class="c-block-slip-first__block">
                                 <div class="c-block-slip-first__figure">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/img-block-features-first-02.png" alt="">
                                 </div>
                                 <div class="c-block-slip-first__list">
-                                    <div class="c-block-slip-first__item">紙ベースでやってきた名簿管理を、<span>エクセルや顧客名簿ソフト</span>で管理したい</div>
-                                    <div class="c-block-slip-first__item">昔の紙媒体の名簿をデータ化し、<span>DM</span>を簡単に作成できるようにしたい</div>
-                                    <div class="c-block-slip-first__item">大量の返信ハガキの顧客情報を全て表にまとめ、<span>エクセル</span>で顧客名簿として管理したい</div>
-                                    <div class="c-block-slip-first__item">数十年前の紙媒体の顧客リストを、現在の<span>エクセル顧客名簿</span>に追加登録したい</div>
-                                    <div class="c-block-slip-first__item">選挙名簿を入力して、<span>選挙用のハガキ</span>へ印字し送付したい</div>
-                                    <div class="c-block-slip-first__item">同窓会名簿などの住所録から、<span>通知のハガキ</span>を送付したい</div>
+                                    <div class="c-block-slip-first__item">Đội ngũ kỹ sư với trình độ <span>chuyên môn và kỹ thuật cao.</span></div>
+                                    <div class="c-block-slip-first__item">Mang đến cho khách hàng những sản phẩm với tiêu chuẩn chất <span>chất lượng cao. </span></div>
+                                    <div class="c-block-slip-first__item"><span>Tối ưu về chi phí</span> cũng như cơ cấu vận hành</div>
+                                    <div class="c-block-slip-first__item">Hỗ trợ <span>toàn diện & nhanh chóng</span> </div>
+                                    <div class="c-block-slip-first__item">chúng tôi luôn nắm bắt những thông tin, <span>xu hướng công nghệ</span></div>
                                 </div>
                             </div>
                         </div>
@@ -32,6 +31,131 @@
                 </div>
             </div>
         </section>
+
+        <section class="l-section is-bg-color is-features">
+            <div class="l-container">
+                <div class="c-heading is-xlg">
+                    <div class="c-heading__small">Service</div>
+                    <div class="c-heading__title">GIẢI PHÁP</div>
+                    <div class="c-heading__text">
+                        Dựa theo yêu cầu từ doanh nghiệp của bạn, chúng tôi sẽ đề xuất giải pháp nhất phù hợp nhất với bạn.
+                    </div>
+                </div>
+                <div class="c-service-menu">
+                    <div class="c-service-menu__list">
+                        <a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-01.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Thời trang</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-02.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Điện thoại & Điện máy</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-03.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Vật liệu xây dựng       </div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-04.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Nhà thuốc       </div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-05.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Mẹ & Bé       </div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="s#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-06.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Sách & Văn phòng phẩm       </div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-07.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Sản xuất</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-08.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Tạp hóa & Siêu thị</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-09.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Mỹ phẩm       </div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-10.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Nông sản & Thực phẩm</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-11.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Xe,Máy móc</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-12.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Nội thất & Gia dụng</div>
+                            </div>
+                        </a><a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-13.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Hoa & Quà tặng</div>
+                            </div>
+                        </a>
+                        <a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Nhà hàng       </div>
+                            </div>
+                        </a>
+                        <a class="c-service-menu__item" href="#">
+                            <div class="c-service-menu__image">
+                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
+                            </div>
+                            <div class="c-service-menu__content">
+                                <div class="c-service-menu__title">Quán ăn</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="l-section is-xxxlg">
             <div class="c-block-solution">
                 <div class="c-block-solution__float">Solution</div>
@@ -40,40 +164,45 @@
                     <div class="row">
                         <div class="large-4 small-12">
                             <div class="c-block-solution__item">
-                                <div class="c-block-solution__number">01        </div>
+                                <div class="c-block-solution__number">01</div>
                                 <div class="c-block-solution__image">
-                                    <div class="bg-img" style="background-image: url(https://www.uluru.jp/wp-content/uploads/2022/01/img-block-solution-24-1.jpg"></div>
+                                    <div class="bg-img" style="background-image: url(App_Themes/upload/2024/01/img-block-solution-24-1.jpg)"></div>
                                 </div>
                                 <div class="c-block-solution__content">
                                     <div class="c-block-solution__title">
-                                        名簿に記載のない情報を<br />
-                                        入力することで付加価値を           
+                                        Hệ thống kế toán 
                                     </div>
-                                    <div class="c-block-solution__text">企業の公式HP等を検索し、資本金や代表者名、業務内容を調べて補完入力も行えます。補完することでより高度なマーケティングが可能となります。</div>
+                                    <div class="c-block-solution__text">
+                                        Đây là hệ thống kế toán đã được giản lược các nghiệp vụ phức tạp nhưng vẫn đảm bảo tính năng sử dụng cho các doanh nghiệp vừa và nhỏ. 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="large-4 small-12">
                             <div class="c-block-solution__item">
-                                <div class="c-block-solution__number">02        </div>
+                                <div class="c-block-solution__number">02</div>
                                 <div class="c-block-solution__image">
-                                    <div class="bg-img" style="background-image: url(https://www.uluru.jp/wp-content/uploads/2022/01/img-block-solution-25.jpg"></div>
+                                    <div class="bg-img" style="background-image: url(App_Themes/upload/2024/01/img-block-solution-25.jpg)"></div>
                                 </div>
                                 <div class="c-block-solution__content">
-                                    <div class="c-block-solution__title">短納期・至急対応可能</div>
-                                    <div class="c-block-solution__text">弊社では提携する入力作業センターが多数存在します。入力オペレーターも数千人規模となり、あらゆる納期に対応することが可能です。</div>
+                                    <div class="c-block-solution__title">Hệ thống bán hàng</div>
+                                    <div class="c-block-solution__text">
+                                        Đây là một hệ thống quản lý và bán xe oto. Cho phép nhân viên từ cửa hàng có thể kết nối nhà máy để nâng cấp , thay thế thiết bị theo yêu cầu Khách hàng. 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="large-4 small-12">
                             <div class="c-block-solution__item">
-                                <div class="c-block-solution__number">03        </div>
+                                <div class="c-block-solution__number">03</div>
                                 <div class="c-block-solution__image">
-                                    <div class="bg-img" style="background-image: url(https://www.uluru.jp/wp-content/uploads/2022/01/img-block-solution-22.jpg"></div>
+                                    <div class="bg-img" style="background-image: url(App_Themes/upload/2024/01/img-block-solution-22.jpg)"></div>
                                 </div>
                                 <div class="c-block-solution__content">
-                                    <div class="c-block-solution__title">入力後の工程をトータルサポート</div>
-                                    <div class="c-block-solution__text">入力したデータを使用してのDM発送、商品発送。アウトバウンドコールや集計等、お客様の『真の目的』にも対応致します</div>
+                                    <div class="c-block-solution__title">Ứng dụng quản lý Bất Động Sản</div>
+                                    <div class="c-block-solution__text">
+                                        Đây là ứng dụng cho phép người thuê nhà có thể xem thông tin hợp đồng, thanh toán tiền nhà, thông tin các thiết bị trong nhà. Đồng thời cho phép chủ nhà quản lý được thông tin thuê nhà và danh sách các phòng/nhà đang cho thuê/
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -81,9 +210,10 @@
                 </div>
             </div>
         </section>
+
         <section class="l-section is-xxxxlg is-bg-color">
             <div class="l-container">
-                <h2 class="c-heading is-lg is-center is-bottom">ご利用の流れ</h2>
+                <h2 class="c-heading is-lg is-center is-bottom">Quy trình Leon II</h2>
                 <div class="c-flow  u-mbs is-top">
                     <div class="row">
                         <div class="large-2 small-12">
@@ -94,7 +224,7 @@
                                 <div class="c-flow__item-icon">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-01.png" alt="">
                                 </div>
-                                <div class="c-flow__item-title">お問い合わせ</div>
+                                <div class="c-flow__item-title">Liên hệ & tư vấn</div>
                             </div>
                         </div>
                         <div class="large-2 small-12">
@@ -103,7 +233,7 @@
                                 <div class="c-flow__item-icon">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-02.png" alt="">
                                 </div>
-                                <div class="c-flow__item-title">無料お見積もり</div>
+                                <div class="c-flow__item-title">Trao đổi & Báo giá</div>
                             </div>
                         </div>
                         <div class="large-2 small-12">
@@ -112,7 +242,7 @@
                                 <div class="c-flow__item-icon">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-03.png" alt="">
                                 </div>
-                                <div class="c-flow__item-title">ご契約</div>
+                                <div class="c-flow__item-title">Ký Hợp đồng</div>
                             </div>
                         </div>
                         <div class="large-2 small-12">
@@ -122,8 +252,7 @@
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-04.png" alt="">
                                 </div>
                                 <div class="c-flow__item-title">
-                                    原本お預かり・<br>
-                                    スキャニング作業           
+                                    Phát triển sản phẩm
                                 </div>
                             </div>
                         </div>
@@ -133,7 +262,7 @@
                                 <div class="c-flow__item-icon">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-05.png" alt="">
                                 </div>
-                                <div class="c-flow__item-title">納品・原本返却</div>
+                                <div class="c-flow__item-title">Chạy thủ & Bàn giao</div>
                             </div>
                         </div>
                         <div class="large-2 small-12">
@@ -142,18 +271,213 @@
                                 <div class="c-flow__item-icon">
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-flow-06.png" alt="">
                                 </div>
-                                <div class="c-flow__item-title">ご請求書発行</div>
+                                <div class="c-flow__item-title">Vận hành & Bảo hành</div>
                             </div>
                         </div>
                     </div>
-                    <div class="c-flow__text">※ ご発注の最低料金は<span>「枚数 x 単価で7万円（税別）」</span>に満たない場合は、一律7万円（税別）での対応となります。</div>
-                    <div class="c-flow__button"><a class="c-button" href="index">流れを詳しく見る</a></div>
                 </div>
             </div>
         </section>
+
+        <section class="l-section is-xxxxlg">
+            <div class="c-block-solution">
+                <div class="c-block-solution__float"></div>
+                <div class="l-container">
+                    <div class="row">
+                        <div class="large-6 small-12 div-language">
+                            <div class="c-block-solution__item">
+                                <div class="c-block-solution__content">
+                                    <div class="c-block-solution__title">
+                                        <h2 class="c-heading is-lg is-center is-bottom">Programming laguage</h2>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/Swift_logo_PNG1.PNG)">
+                                                        <div class="div-content swift-kotlin">
+                                                            <label>Swift</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/kotlin.png)">
+                                                        <div class="div-content swift-kotlin">
+                                                            <label>Kotlin</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/objective-c.png)">
+                                                        <div class="div-content objC">
+                                                            <label>Objective</label><label>C</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/csharp.png)">
+                                                        <div class="div-content cSharp">
+                                                            <label>CSharp</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/java.png)">
+                                                        <div class="div-content objC">
+                                                            <label>Java</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="large-6 small-12 div-framework">
+                            <div class="c-block-solution__item">
+                                <div class="c-block-solution__content">
+                                    <div class="c-block-solution__title">
+                                        <h2 class="c-heading is-lg is-center is-bottom">Framework</h2>
+                                    </div>
+
+                                    <div>
+                                        <div class="row">
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/android.png)">
+                                                        <div class="div-content swift-kotlin">
+                                                            <label>Android</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/ios.png)">
+                                                        <div class="div-content swift-kotlin">
+                                                            <label>IOS</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/react.png)">
+                                                        <div class="div-content react">
+                                                            <label>React</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/xamarin.png)">
+                                                        <div class="div-content xamarin">
+                                                            <label>Xamarin</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/flutter.png)">
+                                                        <div class="div-content fluter">
+                                                            <label>Fluter</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/unity.png)">
+                                                        <div class="div-content objC">
+                                                            <label>Unity</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="large-4 small-12">
+                                                <div class="c-block-solution__image_frame">
+                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/outsystem.jpg)">
+                                                        <div class="div-content objC">
+                                                            <label>outsystems</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="l-offer">
+            <div class="l-offer__top">
+                <div class="l-offer__blocks">
+                    <a class="l-offer__block" href="h#">料金<span>Price</span><div class="bg-img" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/bg-offer-block-01.jpg)"></div>
+                    </a><a class="l-offer__block" href="#">よくあるご質問<span>FAQ</span><div class="bg-img" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/bg-offer-block-02.jpg)"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="l-offer__bottom">
+                <div class="l-offer__image" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/img-offer-01.jpg)"></div>
+                <div class="l-offer__wrap">
+                    <div class="l-container">
+                        <div class="l-offer__inner">
+                            <h2 class="l-offer__title"><span>無</span><span>料</span>で即日お見積り可能！<br class="u-visible-md">
+                                まずはご相談ください</h2>
+                            <div class="l-offer__text">
+                                ご相談内容における本質的な課題を見つけ、<br class="u-visible-sm">
+                                最適なソリューションをご提案させていただきます。
+                            </div>
+                            <div class="l-offer__others">
+                                <div class="l-offer__tels">
+                                    <a class="l-offer__tel" href="tel:0120-269-356">
+                                        <img src="App_Themes/uluru-data-html/dist/assets/images/img-tel-white.png" alt="">0120-269-356</a><small>受付時間：平日10:00～19:00</small>
+                                </div>
+                                <a class="l-offer__button c-button is-white" href="#">お問い合わせ・お見積り</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceBodyFooter" runat="Server">
+    <link href="<%=ResolveUrl("~/App_Themes/development/development.css?ver=1.0.0.1")%>" rel="stylesheet" type='text/css' />
 </asp:Content>
 

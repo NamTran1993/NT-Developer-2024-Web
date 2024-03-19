@@ -1,0 +1,80 @@
+﻿.c-block-slip-first__comment-inner span {
+    padding: 5px;
+}
+
+    .c-block-slip-first__comment-inner span::before {
+        content: "";
+        position: absolute;
+        top: -0.125rem;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 0.3125rem;
+        height: 0.3125rem;
+        background: #fff;
+        border-radius: 1000px;
+    }
+
+.c-block-solution__image_frame {
+    position: relative;
+    padding-top: 15%;
+}
+
+    .c-block-solution__image_frame .div-content {
+        position: absolute;
+        top: 17px;
+        right: 0;
+        bottom: 0;
+        left: 75px;
+        margin: auto;
+        font-weight: bold;
+        font-size: 15.5pt;
+    }
+
+.c-block-solution__image_frame .bg-img_frame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.div-framework {
+    padding-left: 30px;
+}
+
+
+
+.div-language {
+    padding-right: 75px;
+}
+
+.swift-kotlin {
+    font-weight: bold;
+    font-size: 15.5pt;
+}
+
+.objC {
+    color: #dd3e20
+}
+.cSharp {
+    color: #4B0082
+}
+
+.react {
+    color: #73FBFD
+}
+
+.xamarin {
+    color: #3199DC;   
+}
+
+.fluter {
+    color: #B7B7B7;
+}
