@@ -1,0 +1,46 @@
+﻿.c-block-slip-first__comment-inner span::before {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    background: #fff;
+    border-radius: 1000px;
+}
+
+
+.c-block-solution__image_frame {
+    position: relative;
+    padding-top: 15%;
+}
+
+.c-block-solution__image_frame .bg-img_frame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+    .c-block-solution__image_frame .div-content {
+        position: absolute;
+        top: 9px;
+        right: 0;
+        bottom: 0;
+        left: 100px;
+        margin: auto;
+        font-weight: bold;
+        font-size: 32.5pt;
+    }
+
+.l-section.is-xxxlg {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
