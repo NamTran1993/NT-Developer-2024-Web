@@ -1,0 +1,17 @@
+﻿.c-block-slip-first__comment-inner span {
+    padding: 5px;
+}
+
+    .c-block-slip-first__comment-inner span::before {
+        content: "";
+        position: absolute;
+        top: -0.125rem;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 0.3125rem;
+        height: 0.3125rem;
+        background: #fff;
+        border-radius: 1000px;
+    }
+

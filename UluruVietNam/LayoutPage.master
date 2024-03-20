@@ -127,7 +127,7 @@
                                 <a href="#">アノテーション作業</a>
                             </li>
                             <li>
-                                <a href="#l">検診票入力</a>
+                                <a href="#">検診票入力</a>
                             </li>
                             <li>
                                 <a href="#">レイアウト入力</a>
@@ -205,7 +205,7 @@
                                                 <div class="c-over-menu__item-text">Phát triển ứng dụng Web/Mobile</div>
                                             </div>
                                         </a>
-                                        <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
+                                        <a class="c-over-menu__item" href="advise" target="_self" rel="noopener">
                                             <div class="c-over-menu__item-inner">
                                                 <div class="c-over-menu__item-icon">
                                                     <img src="App_Themes/upload/2024/03/icon-megamenu-17.png" alt="" />
@@ -213,7 +213,7 @@
                                                 <div class="c-over-menu__item-text">Tư vấn chuyển đổi số doanh nghiệp</div>
                                             </div>
                                         </a>
-                                        <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
+                                        <a class="c-over-menu__item" href="iot" target="_self" rel="noopener">
                                             <div class="c-over-menu__item-inner">
                                                 <div class="c-over-menu__item-icon">
                                                     <img src="App_Themes/upload/2024/03/icon-megamenu-18.png" alt="" />
