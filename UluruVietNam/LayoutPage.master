@@ -64,11 +64,11 @@
         <div>
             <a class="c-slidebar-button js-slidebar-button" href="#">
                 <div class="c-slidebar-button__inner">
-                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">メニュー</span><span class="c-slidebar-button__text is-close">閉じる</span>
+                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">Menu</span>
                 </div>
             </a>
 
-            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom">
+            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom" style="display: block">
                 <ul>
                     <li>
                         <a href="#">ホーム</a>
@@ -151,6 +151,7 @@
                     <a class="c-button" href="#">お問い合わせ・お見積り</a>
                 </div>
             </div>
+         
             <header class="l-header">
                 <div class="l-header__content" data-ng-app="app">
                     <h1 class="l-header__heading">
@@ -249,7 +250,6 @@
             </main>
 
             <footer class="l-footer">
-
                 <uc1:VersionFooter ID="ContentPlaceHolderFoot" runat="server" />
                 <div>
                     <asp:ContentPlaceHolder ID="ContentPlaceBodyFooter" runat="server">

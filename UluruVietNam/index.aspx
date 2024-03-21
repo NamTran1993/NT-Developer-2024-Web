@@ -119,7 +119,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
             </div>
         </section>
 
-        <section class="l-section is-xxxlg is-bottom">
+        <section class="l-section is-xxxlg is-bottom" style="margin-left: 0px; margin-right: 0px;">
             <div class="l-container">
                 <div class="c-heading is-xlg is-pd-bottom">
                     <div class="c-heading__small">Results</div>
@@ -127,7 +127,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                 </div>
             </div>
 
-            <div class="row project">
+            <div class="row project" style="margin-left: 0px; margin-right: 0px;">
                 <div class="bg-img">
                     <img src="App_Themes/upload/2024/10/pj2.png">
                 </div>
@@ -157,12 +157,9 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                 <div class="bg-img">
                     <img src="App_Themes/upload/2024/10/logo-acreek.png">
                 </div>
-
-
-
             </div>
 
-            <script>
+            <script type="text/javascript">
                 $('.project').slick({
                     slidesToShow: 6,
                     slidesToScroll: 1,
@@ -171,7 +168,9 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                     speed: 5000,
                     pauseOnHover: false,
                     cssEase: 'linear',
-                });
+                    dots: false,
+                    prevArrow: false,
+                    nextArrow: false});
             </script>
         </section>
 
