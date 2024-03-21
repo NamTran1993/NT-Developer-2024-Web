@@ -152,7 +152,7 @@
                         <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="" />
                         0120-269-356
                     </a>
-                    <small>受付時間：平日10:00～19:00</small>
+                    <small>Giờ làm việc : 09:00 ~ 18:00 </small>
                 </div>
                 <div class="c-slidebar-menu__button">
                     <a class="c-button" href="#">お問い合わせ・お見積り</a>
@@ -175,7 +175,7 @@
                                     0120-269-356
 				
                                 </div>
-                                <small>受付時間：平日10:00～19:00</small>
+                                <small>Giờ làm việc : 09:00 ~ 18:00 </small>
                             </div>
                             <a class="l-header__contact" href="~/contact.aspx">お問い合わせ・お見積り</a>
                         </div>
@@ -186,7 +186,7 @@
                                     <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="">0120-269-356
 				
                                 </div>
-                                <small>受付時間：平日10:00～19:00</small>
+                                <small>Giờ làm việc : 09:00 ~ 18:00 </small>
                             </div>
                         </div>
                     </div>

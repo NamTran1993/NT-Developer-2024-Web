@@ -6,23 +6,22 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head runat="server">
-    <title>うるるBPOのDịch vụ | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
+    <title>Trang chủ | LEON 2</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="うるるBPOのDịch vụ | データ入力代行 の価格・料金のご案内。大口のご依頼で最大３０％ディスカウントいたします。データ入力の代行、外注をご検討中の お客様はお気軽にお問い合わせください。ご相談・お見積依頼は無料です。フリーダイヤル：0129-269-356" />
+    <meta name="description" content="Trang chủ | LEON 2" />
 
-    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="icon" />
-    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="shortcut icon" />
-    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/web-clipicon.png")%>" rel="apple-touch-icon" />
+    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/logo.ico")%>" rel="icon" />
+    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/logo.ico")%>" rel="shortcut icon" />
+    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/logo.ico")%>" rel="apple-touch-icon" />
 
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery/jquery.js")%>"></script>
     <link href="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.css")%>" rel="stylesheet" />
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/slick-1.8.1/slick.js")%>"></script>
-
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
@@ -49,6 +48,14 @@
         ::-webkit-scrollbar-thumb {
             background-color: brown
         }
+
+        body {
+            font-family: Verdana
+        }
+
+        .l-header__contact {
+            width: 15.375rem !important;
+        }
     </style>
 
     <link href="<%=ResolveUrl("~/App_Themes/block-library/style.min6a4d.css??ver=1.0.0.0")%>" rel="stylesheet" type='text/css' media='all' />
@@ -64,11 +71,11 @@
         <div>
             <a class="c-slidebar-button js-slidebar-button" href="#">
                 <div class="c-slidebar-button__inner">
-                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">メニュー</span><span class="c-slidebar-button__text is-close">閉じる</span>
+                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">Menu</span>
                 </div>
             </a>
 
-            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom">
+            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom" style="display: block">
                 <ul>
                     <li>
                         <a href="#">ホーム</a>
@@ -151,6 +158,7 @@
                     <a class="c-button" href="#">お問い合わせ・お見積り</a>
                 </div>
             </div>
+
             <header class="l-header">
                 <div class="l-header__content" data-ng-app="app">
                     <h1 class="l-header__heading">
@@ -249,7 +257,6 @@
             </main>
 
             <footer class="l-footer">
-
                 <uc1:VersionFooter ID="ContentPlaceHolderFoot" runat="server" />
                 <div>
                     <asp:ContentPlaceHolder ID="ContentPlaceBodyFooter" runat="server">

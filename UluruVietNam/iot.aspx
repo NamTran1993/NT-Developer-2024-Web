@@ -213,25 +213,20 @@
                 <div class="l-offer__wrap">
                     <div class="l-container">
                         <div class="l-offer__inner">
-                            <h2 class="l-offer__title"><span>無</span><span>料</span>で即日お見積り可能！<br class="u-visible-md">
-                                まずはご相談ください</h2>
-                            <div class="l-offer__text">
-                                ご相談内容における本質的な課題を見つけ、<br class="u-visible-sm">
-                                最適なソリューションをご提案させていただきます。
-                            </div>
+                            <h2 class="l-offer__title">Hãy cùng chúng tôi kiến tạo giá trị khác biệt<br class="u-visible-md">
+                            </h2>
                             <div class="l-offer__others">
                                 <div class="l-offer__tels">
-                                    <a class="l-offer__tel" href="tel:0120-269-356">
-                                        <img src="App_Themes/uluru-data-html/dist/assets/images/img-tel-white.png" alt="">0120-269-356</a><small>受付時間：平日10:00～19:00</small>
+                                    <a class="l-offer__tel" href="tel:0866-507-268">
+                                        <img src="App_Themes/uluru-data-html/dist/assets/images/img-tel-white.png" alt="">0866-507-268</a><small>Giờ làm việc : 09:00 ~ 18:00 </small>
                                 </div>
-                                <a class="l-offer__button c-button is-white" href="#">お問い合わせ・お見積り</a>
+                                <a class="l-offer__button c-button is-white" href="contact">Liên hệ & Đặt lịch tư vấn</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </asp:Content>
 
