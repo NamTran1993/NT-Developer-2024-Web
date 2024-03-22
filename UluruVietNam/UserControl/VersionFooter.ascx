@@ -1,9 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="VersionFooter.ascx.cs" Inherits="VersionFooter" %>
-<div class="l-footer__head">
+<div class="l-footer__head" style="padding: 0px">
     <div class="l-footer__navs">
         <div class="l-container">
             <div id="footer" class="container text-center text-md-left footer">
-                <div class="row">
+                <div class="row" style="margin: 0px">
                     <div class="col-md-2 mt-md-0 mt-0 mt-3 footer-logo-vnext">
                         <a href="#">
                             <img class="header-menu-logo menu-logo-footer ls-is-cached lazyloaded" alt="logo" src="App_Themes/uluru-data-html/dist/assets/images/logo.png"></a>
@@ -123,7 +123,7 @@
                 </div>
 
                 <!--MAP-->
-                <div class="row d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center">
+                <div class="row d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center" style="margin: 0px">
                     <div class="col-md-12 col-lg-8 mb-md-0 mb-3 img-map">
                         <div class="block-map">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-270 0 2000 1500" class="footer_map" xml:space="preserve">
