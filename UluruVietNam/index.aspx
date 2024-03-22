@@ -24,7 +24,7 @@
                 <div class="c-card-image">
                     <div class="row">
                         <div class="large-6 small-12">
-                            <a class="c-card-image__item" href="#">
+                            <a class="c-card-image__item" href='development'>
                                 <div class="c-card-image__image">
                                     <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-card-image-02.png" alt="" />
                                 </div>
@@ -42,7 +42,7 @@ Bên cạnh đó, LEON II hoàn toàn có thể đảm nhận từ khâu thiết
                             </a>
                         </div>
                         <div class="large-6 small-12">
-                            <a class="c-card-image__item" href="#">
+                            <a class="c-card-image__item" href="advise">
                                 <div class="c-card-image__image">
                                     <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-card-image-01.png" alt="" />
                                 </div>
@@ -60,7 +60,7 @@ Bên cạnh đó, LEON II hoàn toàn có thể đảm nhận từ khâu thiết
                             </a>
                         </div>
                         <div class="large-6 small-12">
-                            <a class="c-card-image__item" href="#">
+                            <a class="c-card-image__item" href="iot">
                                 <div class="c-card-image__image">
                                     <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-card-image-03.png" alt="" />
                                 </div>

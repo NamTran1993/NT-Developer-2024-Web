@@ -1,0 +1,160 @@
+﻿.menu {
+    color: black;
+    background: #fff;
+    width: 100%;
+    display: none;
+    font-family: verdana;
+}
+
+    .menu ul > li {
+        border-bottom: 1px solid #ccc;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+        color: #222;
+        font-weight: bold;
+    }
+
+        .menu ul > li:active {
+            background: #00ffff;
+        }
+
+.is-open {
+    display: block;
+}
+
+.is-close {
+    display: none;
+}
+
+.submenu-hide {
+    display: none;
+}
+
+.submenu-open {
+    display: block;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 667px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
+
+@media only screen and (max-width: 414px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 896px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
+
+@media only screen and (max-width: 390px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 844px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+}
