@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LayoutPage.master" AutoEventWireup="true" CodeFile="flow.aspx.cs" Inherits="flow" %>
+﻿<%@ Page Title="Về chúng tôi | LEON 2" Language="C#" MasterPageFile="~/LayoutPage.master" AutoEventWireup="true" CodeFile="flow.aspx.cs" Inherits="flow" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>

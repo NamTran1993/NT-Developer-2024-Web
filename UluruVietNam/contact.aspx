@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.master" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
+﻿<%@ Page Title="Liên hệ | LEON 2" Language="C#" MasterPageFile="~/Layout.master" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>

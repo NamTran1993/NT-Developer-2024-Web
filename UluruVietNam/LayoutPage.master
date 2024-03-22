@@ -58,6 +58,7 @@
         }
     </style>
 
+
     <link href="<%=ResolveUrl("~/App_Themes/block-library/style.min6a4d.css??ver=1.0.0.0")%>" rel="stylesheet" type='text/css' media='all' />
     <link href="<%=ResolveUrl("~/App_Themes/table-of-contents-plus/screen.min5544.css?ver=1.0.0.0")%>" rel="stylesheet" type='text/css' media='all' />
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/themes/app8a54.css?ver=1.0.0.0")%>" rel="stylesheet" />
@@ -71,91 +72,99 @@
         <div>
             <a class="c-slidebar-button js-slidebar-button" href="#">
                 <div class="c-slidebar-button__inner">
-                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">Menu</span>
+                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">メニュー</span><span class="c-slidebar-button__text is-close">閉じる</span>
                 </div>
             </a>
 
-            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom" style="display: block">
+            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom">
                 <ul>
                     <li>
                         <a href="#">ホーム</a>
                     </li>
-                    <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">Về chúng tôi</span>
+                    <li class="c-slidebar-menu__parent js-accordion"><span data-accordion-title="menu-title">特長</span>
                         <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
                             <li>
-                                <a href="#">低価格実現のために</a>
+                                <a href="https://www.uluru.jp/features/low-price/">低価格実現のために</a>
                             </li>
                             <li>
-                                <a href="#">納得の高品質</a>
+                                <a href="https://www.uluru.jp/features/quality/">納得の高品質</a>
                             </li>
                             <li>
-                                <a href="#">うれしい短納期</a>
+                                <a href="https://www.uluru.jp/features/speed/">うれしい短納期</a>
                             </li>
                             <li>
-                                <a href="#">セキュアな環境づくり</a>
+                                <a href="https://www.uluru.jp/features/security/">セキュアな環境づくり</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">Dịch vụ</span>
+                    <li class="c-slidebar-menu__parent js-accordion"><span data-accordion-title="menu-title">データ入力サービス</span>
                         <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
                             <li>
-                                <a href="#">アンケート入力・集計</a>
+                                <a href="https://www.uluru.jp/service/questionnaire/">アンケート入力・集計</a>
                             </li>
                             <li>
-                                <a href="#">名簿入力</a>
+                                <a href="https://www.uluru.jp/service/name-list/">名簿入力</a>
                             </li>
                             <li>
-                                <a href="#">応募ハガキ入力</a>
+                                <a href="https://www.uluru.jp/service/post-card/">応募ハガキ入力</a>
                             </li>
                             <li>
-                                <a href="#">名刺入力</a>
+                                <a href="https://www.uluru.jp/service/name-card/">名刺入力</a>
                             </li>
                             <li>
-                                <a href="#">申込書入力</a>
+                                <a href="https://www.uluru.jp/service/subscription/">申込書入力</a>
                             </li>
                             <li>
-                                <a href="#">文字入力</a>
+                                <a href="https://www.uluru.jp/service/word/">文字入力</a>
                             </li>
                             <li>
-                                <a href="#">点検表・日報入力</a>
+                                <a href="https://www.uluru.jp/service/report/">点検表・日報入力</a>
                             </li>
                             <li>
-                                <a href="#">音声入力</a>
+                                <a href="https://www.uluru.jp/service/voice/">音声入力</a>
                             </li>
                             <li>
-                                <a href="#">webからの情報収集</a>
+                                <a href="https://www.uluru.jp/service/web/">webからの情報収集</a>
                             </li>
                             <li>
-                                <a href="#">契約書入力</a>
+                                <a href="https://www.uluru.jp/service/contract/">契約書入力</a>
                             </li>
                             <li>
-                                <a href="#">アノテーション作業</a>
+                                <a href="https://www.uluru.jp/service/annotation/">アノテーション作業</a>
                             </li>
                             <li>
-                                <a href="#">検診票入力</a>
+                                <a href="https://www.uluru.jp/service/medical/">検診票入力</a>
                             </li>
                             <li>
-                                <a href="#">レイアウト入力</a>
+                                <a href="https://www.uluru.jp/service/layout/">レイアウト入力</a>
                             </li>
                             <li>
-                                <a href="#">マイソク入力</a>
+                                <a href="https://www.uluru.jp/service/maisoku/">マイソク入力</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Liên hệ</a>
+                        <a href="https://www.uluru.jp/case/">活用事例</a>
+                    </li>
+                    <li>
+                        <a href="https://www.uluru.jp/charge/">料金</a>
+                    </li>
+                    <li>
+                        <a href="https://www.uluru.jp/flow/">ご利用の流れ</a>
+                    </li>
+                    <li>
+                        <a href="https://www.uluru.jp/faq/">よくあるご質問</a>
                     </li>
                 </ul>
                 <div class="c-slidebar-menu__tel">
                     <a class="c-slidebar-menu__tel-link" href="tel:0120-269-356">
-                        <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="" />
-                        0866-507-268
+                        <img src="https://www.uluru.jp/wp-content/themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="">
+                        0120-269-356
                     </a>
+                    <small>受付時間：平日10:00～19:00</small>
                 </div>
                 <div class="c-slidebar-menu__button">
-                    <a class="c-button" href="#">お問い合わせ・お見積り</a>
+                    <a class="c-button" href="https://www.uluru.jp/contact/">お問い合わせ・お見積り</a>
                 </div>
             </div>
 

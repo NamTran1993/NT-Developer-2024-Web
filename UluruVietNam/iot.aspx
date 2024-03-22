@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LayoutPage.master" AutoEventWireup="true" CodeFile="iot.aspx.cs" Inherits="iot" %>
+﻿<%@ Page Title="Hệ thống nhúng, giải pháp IoT | LEON 2" Language="C#" MasterPageFile="~/LayoutPage.master" AutoEventWireup="true" CodeFile="iot.aspx.cs" Inherits="iot" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
