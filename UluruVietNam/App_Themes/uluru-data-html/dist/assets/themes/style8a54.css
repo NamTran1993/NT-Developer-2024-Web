@@ -8216,7 +8216,7 @@ select {
     letter-spacing: .1em;
     line-height: 1.33333;
     font-weight: 700;
-    padding-top: 1.25rem
+    padding-top: 0.25rem
 }
 
 @media screen and (min-width: 0em) and (max-width: 46.8125em) {
@@ -8312,7 +8312,7 @@ select {
 .c-heading.is-xlg:before {
     content: "";
     display: block;
-    width: 2.125rem;
+    width: 5.125rem;
     height: 1.5rem;
     background-image: url("../images/icon-heading-01.png");
     background-repeat: no-repeat;

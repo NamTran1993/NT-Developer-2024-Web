@@ -6,31 +6,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceBody" runat="Server">
     <div class="c-main-visual-one">
         <div class="c-main-visual-one__slider">
-            <a class="c-main-visual-one__image" href='#'>
+            <a class="c-main-visual-one__image" href='contact'>
                 <div class="bg-img u-hidden-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.jpg)"></div>
                 <div class="bg-img u-visible-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.jpg)"></div>
             </a>
-        </div>
-
-        <div class="c-counts">
-            <div class="c-counts__count">
-                <strong>取引企業</strong>
-                <span>5,396</span>
-                <strong>社</strong>
-            </div>
-            <div class="c-counts__count"><strong>受託取引</strong><span>29,827</span><strong>案件</strong></div>
-        </div>
-
-        <div class="c-slogans">
-            <div class="c-slogans__title">
-                <strong>
-                    <span>CÙNG LEON II</span>
-
-                </strong>
-                <strong>
-                    <span>TỐI ƯU HÓA VÀ KIẾN TẠO GIÁ TRỊ KHÁC BIỆT</span>
-                </strong>
-            </div>
         </div>
     </div>
     <div>
@@ -119,7 +98,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
             </div>
         </section>
 
-        <section class="l-section is-xxxlg is-bottom">
+        <section class="l-section is-xxxlg is-bottom" style="margin-left: 0px; margin-right: 0px;">
             <div class="l-container">
                 <div class="c-heading is-xlg is-pd-bottom">
                     <div class="c-heading__small">Results</div>
@@ -127,7 +106,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                 </div>
             </div>
 
-            <div class="row project">
+            <div class="row project" style="margin-left: 0px; margin-right: 0px;">
                 <div class="bg-img">
                     <img src="App_Themes/upload/2024/10/pj2.png">
                 </div>
@@ -157,12 +136,9 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                 <div class="bg-img">
                     <img src="App_Themes/upload/2024/10/logo-acreek.png">
                 </div>
-
-
-
             </div>
 
-            <script>
+            <script type="text/javascript">
                 $('.project').slick({
                     slidesToShow: 6,
                     slidesToScroll: 1,
@@ -171,6 +147,9 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                     speed: 5000,
                     pauseOnHover: false,
                     cssEase: 'linear',
+                    dots: false,
+                    prevArrow: false,
+                    nextArrow: false
                 });
             </script>
         </section>
@@ -303,7 +282,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                             <div class="c-banner-simple__tels">
                                 <a class="c-banner-simple__tel" href="tel:0120-269-356">
                                     <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-tel-black.png" alt="" />
-                                    0866-507-268 </a><small>受付時間：平日10:00～19:00</small>
+                                    0866-507-268 </a><small>Giờ làm việc : 09:00 ~ 18:00 </small>
                             </div>
                             <a class="c-banner-simple__button c-button is-gradient" href="/contact">Liên hệ & Đặt lịch tư vấn</a>
                         </div>
