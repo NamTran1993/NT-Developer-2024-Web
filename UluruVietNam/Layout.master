@@ -6,12 +6,11 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head runat="server">
-    <title>うるるBPOのデータ入力サービス | 短納期・低価格・高品質の【うるるBPO】データ入力代行サービス</title>
+    <title>Liên hệ | LEON 2</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="うるるBPOのデータ入力サービス | データ入力代行 の価格・料金のご案内。大口のご依頼で最大３０％ディスカウントいたします。データ入力の代行、外注をご検討中の お客様はお気軽にお問い合わせください。ご相談・お見積依頼は無料です。フリーダイヤル：0129-269-356" />
 
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="icon" />
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/favicon.ico")%>" rel="shortcut icon" />
@@ -21,6 +20,7 @@
     <link href="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.css")%>" rel="stylesheet" />
     <script src="<%=ResolveUrl("~/Scripts/lib/jquery-ui/jquery-ui.js")%>"></script>
     <script src="<%=ResolveUrl("~/Scripts/lib/angular.min.js")%>"></script>
+    <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/fontawesome-free-5.15.1-web/css/all.min.css?ver=1.0.0.0")%>" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
     <style type="text/css">
@@ -46,6 +46,10 @@
         ::-webkit-scrollbar-thumb {
             background-color: brown
         }
+
+        body {
+            font-family: Verdana
+        }
     </style>
 
     <link href="<%=ResolveUrl("~/App_Themes/block-library/style.min6a4d.css?ver=6.1.1")%>" rel="stylesheet" type='text/css' media='all' />
@@ -59,104 +63,33 @@
 <body>
     <form id="pageMaster" runat="server">
         <div>
-            <a class="c-slidebar-button js-slidebar-button" href="#">
-                <div class="c-slidebar-button__inner">
-                    <span class="c-slidebar-button__line"><span></span><span></span><span></span></span><span class="c-slidebar-button__text is-open">メニュー</span><span class="c-slidebar-button__text is-close">閉じる</span>
-                </div>
-            </a>
+            <div onclick="showMenu();">
+                <a class="c-slidebar-button js-slidebar-button" id="btnMenu">
+                    <div class="c-slidebar-button__inner">
+                        <span class="c-slidebar-button__line">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <span class="c-slidebar-button__text is-open">Menu</span>
+                    </div>
+                </a>
+            </div>
 
-            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom">
+            <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom menu is-close" id="divMenu">
                 <ul>
-                    <li>
-                        <a href="#">ホーム</a>
-                    </li>
-                    <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">特長</span>
-                        <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
-                            <li>
-                                <a href="#">低価格実現のために</a>
-                            </li>
-                            <li>
-                                <a href="#">納得の高品質</a>
-                            </li>
-                            <li>
-                                <a href="#">うれしい短納期</a>
-                            </li>
-                            <li>
-                                <a href="#">セキュアな環境づくり</a>
-                            </li>
+                    <li><a href="index">Trang chủ</a> </li>
+                    <li><a href="flow">Về chúng tôi</a> </li>
+                    <li>Dịch vụ <i id="icon" class="fas fa-angle-right" onclick="subMenu();"></i>
+                        <ul class="submenu-hide" id="submenu">
+                            <li><a href="development">Phát triển ứng dụng web/mobile</a> </li>
+                            <li><a href="advise">Tư vấn chuyển đổi số doanh nghiệp</a> </li>
+                            <li><a href="iot">Phát triển ứng dụng tích hợp IoT</a> </li>
                         </ul>
+
                     </li>
-                    <li class="c-slidebar-menu__parent js-accordion">
-                        <span data-accordion-title="menu-title">データ入力サービス</span>
-                        <ul class="c-slidebar-menu__children" data-accordion-content="menu-text">
-                            <li>
-                                <a href="#">アンケート入力・集計</a>
-                            </li>
-                            <li>
-                                <a href="#">名簿入力</a>
-                            </li>
-                            <li>
-                                <a href="#">応募ハガキ入力</a>
-                            </li>
-                            <li>
-                                <a href="#">名刺入力</a>
-                            </li>
-                            <li>
-                                <a href="#">申込書入力</a>
-                            </li>
-                            <li>
-                                <a href="#">文字入力</a>
-                            </li>
-                            <li>
-                                <a href="#">点検表・日報入力</a>
-                            </li>
-                            <li>
-                                <a href="#">音声入力</a>
-                            </li>
-                            <li>
-                                <a href="#">webからの情報収集</a>
-                            </li>
-                            <li>
-                                <a href="#">契約書入力</a>
-                            </li>
-                            <li>
-                                <a href="#">アノテーション作業</a>
-                            </li>
-                            <li>
-                                <a href="#l">検診票入力</a>
-                            </li>
-                            <li>
-                                <a href="#">レイアウト入力</a>
-                            </li>
-                            <li>
-                                <a href="#">マイソク入力</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">活用事例</a>
-                    </li>
-                    <li>
-                        <a href="#">料金</a>
-                    </li>
-                    <li>
-                        <a href="#">ご利用の流れ</a>
-                    </li>
-                    <li>
-                        <a href="#">よくあるご質問</a>
-                    </li>
+                    <li><a href="contact">Liên hệ</a></li>
                 </ul>
-                <div class="c-slidebar-menu__tel">
-                    <a class="c-slidebar-menu__tel-link" href="tel:0120-269-356">
-                        <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="" />
-                        0120-269-356
-                    </a>
-                    <small>Giờ làm việc : 09:00 ~ 18:00 </small>
-                </div>
-                <div class="c-slidebar-menu__button">
-                    <a class="c-button" href="#">お問い合わせ・お見積り</a>
-                </div>
             </div>
 
             <header class="l-header is-form">
@@ -167,210 +100,7 @@
                                 <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="うるるBPOのデータ入力サービス">
                             </a>
                         </div>
-
-                        <div class="l-header__other">
-                            <div class="l-header__tels">
-                                <div class="l-header__tels-text">
-                                    <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="">
-                                    0120-269-356
-				
-                                </div>
-                                <small>Giờ làm việc : 09:00 ~ 18:00 </small>
-                            </div>
-                            <a class="l-header__contact" href="~/contact.aspx">お問い合わせ・お見積り</a>
-                        </div>
-                        <div class="l-header__other is-form" style="display: none;">
-                            <div class="l-header__text">お電話でのお問い合わせ</div>
-                            <div class="l-header__tels">
-                                <div class="l-header__tels-text">
-                                    <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel.png" alt="">0120-269-356
-				
-                                </div>
-                                <small>Giờ làm việc : 09:00 ~ 18:00 </small>
-                            </div>
-                        </div>
                     </div>
-                    <nav class="l-header__nav">
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">特長</a>
-                            <div class="c-over-menu  is-bg-opacity">
-                                <div class="c-over-menu__wrap">
-                                    <div class="c-over-menu__container">
-                                        <div class="c-over-menu__list">
-                                            <a class="c-over-menu__item" href="#" target="_self">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-text">
-                                                        驚きの低価格
-									
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-text">
-                                                        納得の高品質
-									
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-text">
-                                                        うれしい短納期
-									
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-text">
-                                                        セキュアな環境づくり
-									
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">データ入力サービス</a>
-                            <div class="c-over-menu is-bg-opacity">
-                                <div class="c-over-menu__wrap">
-                                    <div class="c-over-menu__container">
-                                        <div class="c-over-menu__list">
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="#" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">アンケート入力・集計</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-17.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">名簿入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-18.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">応募ハガキ入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-10.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">名刺入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-05.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">申込書入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-19.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">文字入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-20.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">点検表・日報入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-21.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">音声入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-22.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">Webからの情報収集</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-01.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">契約書入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-23.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">アノテーション作業</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-24-1.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">健診票入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-25.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">レイアウト入力</div>
-                                                </div>
-                                            </a>
-                                            <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
-                                                <div class="c-over-menu__item-inner">
-                                                    <div class="c-over-menu__item-icon">
-                                                        <img src="App_Themes/upload/2024/03/icon-megamenu-26.png" alt="">
-                                                    </div>
-                                                    <div class="c-over-menu__item-text">マイソク入力</div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">活用事例</a>
-                        </div>
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">料金</a>
-                        </div>
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">ご利用の流れ</a>
-                        </div>
-                        <div class="l-header__item">
-                            <a class="l-header__link" href="#">よくあるご質問</a>
-                        </div>
-                    </nav>
                 </div>
             </header>
 
@@ -391,6 +121,8 @@
         <uc1:LoadingUI runat="server" ID="LoadingUI" />
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
         <div id="_divHiden" style="display: none"></div>
+        <link href="<%=ResolveUrl("~/App_Themes/responsive/responsive-2.css?ver=1.0.0.0")%>" rel="stylesheet" />
+        <script src="<%=ResolveUrl("~/Scripts/responsive.js?ver=1.0.0.0")%>"></script>
     </form>
 </body>
 </html>
