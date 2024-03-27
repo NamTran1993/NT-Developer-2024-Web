@@ -93,7 +93,7 @@
                 <div class="c-block-solution__float"></div>
                 <div class="l-container">
                     <div class="row">
-                        <div class="large-6 small-12 div-language">
+                        <div class="large-6 small-12 div-flp">
                             <div class="c-block-solution__item">
                                 <div class="c-block-solution__content">
                                     <div class="c-block-solution__title">
@@ -152,7 +152,7 @@
                             </div>
                         </div>
 
-                        <div class="large-6 small-12 div-framework">
+                        <div class="large-6 small-12 div-hw">
                             <div class="c-block-solution__item">
                                 <div class="c-block-solution__content">
                                     <div class="c-block-solution__title">
