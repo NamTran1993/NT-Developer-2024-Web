@@ -13,7 +13,7 @@
         </div>
     </div>
     <div>
-        <section class="l-section is-xxxlg is-bottom">
+        <section class="l-section">
             <div class="l-container">
                 <div class="c-heading is-xlg">
                     <div class="c-heading__small">Features</div>
@@ -50,8 +50,10 @@ Bên cạnh đó, LEON II hoàn toàn có thể đảm nhận từ khâu thiết
                                     <div class="c-card-image__title">Tư vấn chuyển đổi số doanh nghiệp</div>
                                     <div class="c-card-image__text">
                                         LEON II có thể cung cấp các giải pháp chuyển đổi số dựa trên sự phân tích và thấu hiểu về tình hình, nhu cầu, tư duy, văn hoá của doanh nghiệp, giúp doanh nghiệp chọn được giải pháp công nghệ phù hợp với tầm nhìn dài hạn của mình.
-   <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
+                                         <br />
+                                        <br />
+                                        <br />
+
                                     </div>
                                     <div class="c-card-image__button">
                                         <div class="c-button is-md">Chi tiết</div>
@@ -77,7 +79,7 @@ Chúng tôi có thể hoàn thiện từ khâu thiết kế đến thiết lập
                             </a>
                         </div>
                         <div class="large-6 small-12">
-                            <a class="c-card-image__item" href="#">
+                            <a class="c-card-image__item" href="equipment">
                                 <div class="c-card-image__image">
                                     <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-card-image-04.png" alt="" />
                                 </div>
@@ -85,7 +87,8 @@ Chúng tôi có thể hoàn thiện từ khâu thiết kế đến thiết lập
                                     <div class="c-card-image__title">Cung cấp trang thiết bị máy tính</div>
                                     <div class="c-card-image__text">
                                         LEON II cung cấp trang thiết bị cho các phòng ban như PC, máy chiếu, loa, phần mềm chuyên dụng.
-Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
+Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống<br />
+                                        <br />
                                     </div>
                                     <div class="c-card-image__button">
                                         <div class="c-button is-md">Chi tiết</div>
@@ -119,18 +122,8 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                     <img src="App_Themes/upload/2024/10/pj4.png">
                 </div>
 
-
                 <div class="bg-img">
                     <img src="App_Themes/upload/2024/10/pj5.png">
-                </div>
-
-                <div class="bg-img">
-                    <img src="App_Themes/upload/2024/10/logo-eiwa.png">
-                </div>
-
-
-                <div class="bg-img">
-                    <img src="App_Themes/upload/2024/10/logo-asahipaper.png">
                 </div>
 
                 <div class="bg-img">
@@ -140,7 +133,7 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
 
             <script type="text/javascript">
                 $('.project').slick({
-                    slidesToShow: 6,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 0,
