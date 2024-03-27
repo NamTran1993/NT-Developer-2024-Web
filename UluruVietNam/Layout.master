@@ -73,6 +73,10 @@
                         </span>
                         <span class="c-slidebar-button__text is-open">Menu</span>
                     </div>
+
+                    <div id="close" style="display: none">
+                        <i class="fas fa-times" style="font-size: 31px; margin-right: 6px;"></i>
+                    </div>
                 </a>
             </div>
 
@@ -90,6 +94,18 @@
                     </li>
                     <li><a href="contact">Liên hệ</a></li>
                 </ul>
+
+                <div class="c-slidebar-menu__tel">
+                    <a class="c-slidebar-menu__tel-link" href="tel:0866-507-268">
+                        <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="">
+                        0866-507-268
+                    </a>
+                    <small>Giờ làm việc : 09:00 ~ 18:00 </small>
+                </div>
+
+                <div class="c-slidebar-menu__button">
+                    <a class="c-button" href="contact">Liên hệ & Đặt lịch tư vấn</a>
+                </div>
             </div>
 
             <header class="l-header is-form">

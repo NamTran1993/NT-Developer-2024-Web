@@ -73,7 +73,7 @@
         <div>
             <div onclick="showMenu();">
                 <a class="c-slidebar-button js-slidebar-button" id="btnMenu">
-                    <div class="c-slidebar-button__inner">
+                    <div class="c-slidebar-button__inner" id="open">
                         <span class="c-slidebar-button__line">
                             <span></span>
                             <span></span>
@@ -81,23 +81,48 @@
                         </span>
                         <span class="c-slidebar-button__text is-open">Menu</span>
                     </div>
+
+                    <div id="close" style="display: none">
+                        <i class="fas fa-times" style="font-size: 31px; margin-right: 0px;"></i>
+                    </div>
                 </a>
             </div>
 
             <div class="c-slidebar-menu js-slidebar-menu is-top-to-bottom menu is-close" id="divMenu">
                 <ul>
-                    <li><a href="index">Trang chủ</a> </li>
-                    <li><a href="flow">Về chúng tôi</a> </li>
-                    <li>Dịch vụ <i id="icon" class="fas fa-angle-right" onclick="subMenu();"></i>
+                    <li><a href="index"><i class="fas fa-home"></i>
+                        <label>Trang chủ</label></a>
+                    </li>
+                    <li><a href="flow"><i class="fas fa-address-card"></i>
+                        <label>Về chúng tôi</label>
+                    </a></li>
+                    <li onclick="subMenu();"><i class="fas fa-users-cog"></i>
+                        <label>Dịch vụ</label>
+                        <i style="" id="icon" class="fas fa-angle-right" onclick="subMenu();"></i>
                         <ul class="submenu-hide" id="submenu">
                             <li><a href="development">Phát triển ứng dụng web/mobile</a> </li>
                             <li><a href="advise">Tư vấn chuyển đổi số doanh nghiệp</a> </li>
                             <li><a href="iot">Phát triển ứng dụng tích hợp IoT</a> </li>
+                            <li><a href="equipment">Cung cấp trang thiết bị máy tinh</a> </li>
                         </ul>
 
                     </li>
-                    <li><a href="contact">Liên hệ</a></li>
+                    <li><a href="contact"><i class="fas fa-mail-bulk"></i>
+                        <label>Liên hệ</label>
+                    </a></li>
                 </ul>
+
+                <div class="c-slidebar-menu__tel">
+                    <a class="c-slidebar-menu__tel-link" href="tel:0866-507-268">
+                        <img src="App_Themes/uluru-data-html/dist/assets/images/icon-tel-lg.png" alt="">
+                        0866-507-268
+                    </a>
+                    <small>Giờ làm việc : 09:00 ~ 18:00 </small>
+                </div>
+
+                <div class="c-slidebar-menu__button">
+                    <a class="c-button" href="contact">Liên hệ & Đặt lịch tư vấn</a>
+                </div>
             </div>
 
             <header class="l-header">
