@@ -146,4 +146,3 @@ app.controller('contactController', function ($scope) {
         return validate;
     };
 });
-

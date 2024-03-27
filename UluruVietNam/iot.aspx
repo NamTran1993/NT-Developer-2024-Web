@@ -99,18 +99,20 @@
                                     <div class="c-block-solution__title">
                                         <h2 class="c-heading is-lg is-center is-bottom">Nền tảng</h2>
                                     </div>
-                                    <div>
+
+
+                                    <div class="communication">
                                         <div class="row">
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/arm-mbed.jpg); width: 86px; height: 87px; margin-left: 80px">
+                                                    <div class="bg-img_frame arm-mbed" style="background-image: url(App_Themes/upload/2024/10/arm-mbed.jpg); width: 86px; height: 87px;">
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="background-image: url(App_Themes/upload/2024/10/home-assistant.png); width: 224px; height: 78px;">
+                                                    <div class="bg-img_frame home-assistant" style="background-image: url(App_Themes/upload/2024/10/home-assistant.png); width: 224px; height: 78px; border-radius: 10px">
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,7 +121,7 @@
                                         <div class="row">
                                             <div class="large-6 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 94px; height: 94px; background-image: url(App_Themes/upload/2024/10/esp-home.png); margin-top: 34px; margin-left: 88px;">
+                                                    <div class="bg-img_frame esp-home" style="width: 94px; height: 94px; background-image: url(App_Themes/upload/2024/10/esp-home.png);">
                                                         <div class="div-content">
                                                             <label>ESPHome</label>
                                                         </div>
@@ -131,7 +133,7 @@
                                         <div class="row">
                                             <div class="large-12 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 128px; height: 94px; background-image: url(App_Themes/upload/2024/10/openHAB.png); margin-top: 88px; margin-left: 177px;">
+                                                    <div class="bg-img_frame openHAB" style="width: 128px; height: 94px; background-image: url(App_Themes/upload/2024/10/openHAB.png);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -140,7 +142,7 @@
                                         <div class="row">
                                             <div class="large-12 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 296px; height: 46px; background-image: url(App_Themes/upload/2024/10/thing-speak.png); margin-top: 103px;">
+                                                    <div class="bg-img_frame thing-speak" style="width: 296px; height: 46px; background-image: url(App_Themes/upload/2024/10/thing-speak.png);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -161,7 +163,7 @@
                                         <div class="row">
                                             <div class="large-12 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 295px; height: 53px; background-image: url(App_Themes/upload/2024/10/espressif.png);">
+                                                    <div class="bg-img_frame bg-espressif" style="width: 295px; height: 53px; background-image: url(App_Themes/upload/2024/10/espressif.png);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -170,14 +172,14 @@
                                         <div class="row">
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 64px; height: 64px; margin-left: 122px; background-image: url(App_Themes/upload/2024/10/stm32.png);">
+                                                    <div class="bg-img_frame bg-stm32" style="width: 64px; height: 64px; margin-left: 122px; background-image: url(App_Themes/upload/2024/10/stm32.png);">
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 256px; height: 90px; background-image: url(App_Themes/upload/2024/10/nRF5x_series_logo.png);">
+                                                    <div class="bg-img_frame bg-series" style="width: 256px; height: 90px; border-radius: 10px; background-image: url(App_Themes/upload/2024/10/nRF5x_series_logo.png);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,7 +188,7 @@
                                         <div class="row">
                                             <div class="large-12 small-12">
                                                 <div class="c-block-solution__image_frame">
-                                                    <div class="bg-img_frame" style="width: 128px; height: 128px; background-image: url(App_Themes/upload/2024/10/IoTSensor.jpg); margin-top: 55px; }">
+                                                    <div class="bg-img_frame bg-sensor" style="width: 128px; height: 128px; background-image: url(App_Themes/upload/2024/10/IoTSensor.jpg); margin-top: 55px; }">
                                                     </div>
                                                 </div>
                                             </div>

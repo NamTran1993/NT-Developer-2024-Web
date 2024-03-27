@@ -32,7 +32,7 @@
             </div>
         </section>
 
-        <section class="l-section is-bg-color is-features">
+        <section class="l-section">
             <div class="l-container">
                 <div class="c-heading is-xlg">
                     <div class="c-heading__small">Service</div>
@@ -127,36 +127,13 @@
                             <div class="c-service-menu__content">
                                 <div class="c-service-menu__title">Nội thất & Gia dụng</div>
                             </div>
-                        </a><a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-13.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Hoa & Quà tặng</div>
-                            </div>
-                        </a>
-                        <a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Nhà hàng       </div>
-                            </div>
-                        </a>
-                        <a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Quán ăn</div>
-                            </div>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="l-section is-xxxlg">
+        <section class="l-section">
             <div class="c-block-solution">
                 <div class="c-block-solution__float">Solution</div>
                 <div class="l-container">
@@ -211,9 +188,9 @@
             </div>
         </section>
 
-        <section class="l-section is-xxxxlg is-bg-color">
+        <section class="l-section">
             <div class="l-container">
-                <h2 class="c-heading is-lg is-center is-bottom">Quy trình Leon II</h2>
+                <h2 class="c-heading is-lg is-center">Quy trình Leon II</h2>
                 <div class="c-flow  u-mbs is-top">
                     <div class="row">
                         <div class="large-2 small-12">
@@ -279,7 +256,7 @@
             </div>
         </section>
 
-        <section class="l-section is-xxxxlg">
+        <section class="l-section">
             <div class="c-block-solution">
                 <div class="c-block-solution__float"></div>
                 <div class="l-container">
@@ -290,7 +267,7 @@
                                     <div class="c-block-solution__title">
                                         <h2 class="c-heading is-lg is-center is-bottom">Programming laguage</h2>
                                     </div>
-                                    <div>
+                                    <div class="program">
                                         <div class="row">
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
@@ -357,7 +334,7 @@
                                         <h2 class="c-heading is-lg is-center is-bottom">Framework</h2>
                                     </div>
 
-                                    <div>
+                                    <div class="framework">
                                         <div class="row">
                                             <div class="large-4 small-12">
                                                 <div class="c-block-solution__image_frame">
@@ -444,11 +421,7 @@
 
         <div class="l-offer">
             <div class="l-offer__top">
-                <div class="l-offer__blocks">
-                    <a class="l-offer__block" href="h#">料金<span>Price</span><div class="bg-img" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/bg-offer-block-01.jpg)"></div>
-                    </a><a class="l-offer__block" href="#">よくあるご質問<span>FAQ</span><div class="bg-img" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/bg-offer-block-02.jpg)"></div>
-                    </a>
-                </div>
+               
             </div>
             <div class="l-offer__bottom">
                 <div class="l-offer__image" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/img-offer-01.jpg)"></div>

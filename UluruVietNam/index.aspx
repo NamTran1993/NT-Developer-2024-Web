@@ -7,8 +7,8 @@
     <div class="c-main-visual-one">
         <div class="c-main-visual-one__slider">
             <a class="c-main-visual-one__image" href='contact'>
-                <div class="bg-img u-hidden-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.jpg)"></div>
-                <div class="bg-img u-visible-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.jpg)"></div>
+                <div class="bg-img u-hidden-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.png)"></div>
+                <div class="bg-img u-visible-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.png)"></div>
             </a>
         </div>
     </div>
@@ -50,7 +50,7 @@ Bên cạnh đó, LEON II hoàn toàn có thể đảm nhận từ khâu thiết
                                     <div class="c-card-image__title">Tư vấn chuyển đổi số doanh nghiệp</div>
                                     <div class="c-card-image__text">
                                         LEON II có thể cung cấp các giải pháp chuyển đổi số dựa trên sự phân tích và thấu hiểu về tình hình, nhu cầu, tư duy, văn hoá của doanh nghiệp, giúp doanh nghiệp chọn được giải pháp công nghệ phù hợp với tầm nhìn dài hạn của mình.
-                                   <p>&nbsp;</p>
+   <p>&nbsp;</p>
                                         <p>&nbsp;</p>
                                     </div>
                                     <div class="c-card-image__button">
@@ -170,125 +170,87 @@ Chúng tôi đảm bảo việc cài đặt, bảo trì hệ thống
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-01.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Thời trang        </div>
+                                <div class="c-service-menu__title">Hệ thống CRM</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-02.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Điện thoại & Điện máy        </div>
+                                <div class="c-service-menu__title">Bất động sản</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-03.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Vật liệu xây dựng       </div>
+                                <div class="c-service-menu__title">Hệ thống bán hàng</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-04.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Nhà thuốc       </div>
+                                <div class="c-service-menu__title">Quản lý bệnh viện</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-05.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Mẹ & Bé       </div>
+                                <div class="c-service-menu__title">Truyển thông đa phương tiện</div>
                             </div>
                         </a><a class="c-service-menu__item" href="s#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-06.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Sách & Văn phòng phẩm       </div>
+                                <div class="c-service-menu__title">Nhà hàng khách sạn</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-07.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Sản xuất        </div>
+                                <div class="c-service-menu__title">E-Learning</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-08.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Tạp hóa & Siêu thị        </div>
+                                <div class="c-service-menu__title">Tuyển dụng</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-09.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Mỹ phẩm       </div>
+                                <div class="c-service-menu__title">Quản lý nhân sự</div>
                             </div>
                         </a><a class="c-service-menu__item" href="#">
                             <div class="c-service-menu__image">
                                 <img src="App_Themes/upload/2024/01/icon-service-menu-10.png" alt="" />
                             </div>
                             <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Nông sản & Thực phẩm        </div>
-                            </div>
-                        </a><a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-11.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Xe,Máy móc        </div>
-                            </div>
-                        </a><a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-12.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Nội thất & Gia dụng        </div>
-                            </div>
-                        </a><a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-13.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Hoa & Quà tặng        </div>
-                            </div>
-                        </a>
-                        <a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Nhà hàng       </div>
-                            </div>
-                        </a>
-                        <a class="c-service-menu__item" href="#">
-                            <div class="c-service-menu__image">
-                                <img src="App_Themes/upload/2024/01/icon-service-menu-14.png" alt="" />
-                            </div>
-                            <div class="c-service-menu__content">
-                                <div class="c-service-menu__title">Quán ăn        </div>
+                                <div class="c-service-menu__title">IoT trong nông nghiệp</div>
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="c-banner-simple  is-margin">
-                    <div class="c-banner-simple__inner">
-                        <h2 class="c-banner-simple__title">Hãy cùng chúng tôi kiến tạo giá trị khác biệt</h2>
-                        <div class="c-banner-simple__content">
-                            <div class="c-banner-simple__tels">
-                                <a class="c-banner-simple__tel" href="tel:0120-269-356">
-                                    <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-tel-black.png" alt="" />
-                                    0866-507-268 </a><small>Giờ làm việc : 09:00 ~ 18:00 </small>
+                    <div class="c-banner-simple  is-margin">
+                        <div class="c-banner-simple__inner">
+                            <h2 class="c-banner-simple__title">Hãy cùng chúng tôi kiến tạo giá trị khác biệt</h2>
+                            <div class="c-banner-simple__content">
+                                <div class="c-banner-simple__tels">
+                                    <a class="c-banner-simple__tel" href="tel:0120-269-356">
+                                        <img decoding="async" src="App_Themes/uluru-data-html/dist/assets/images/img-tel-black.png" alt="" />
+                                        0866-507-268 </a><small>Giờ làm việc : 09:00 ~ 18:00 </small>
+                                </div>
+                                <a class="c-banner-simple__button c-button is-gradient" href="/contact">Liên hệ & Đặt lịch tư vấn</a>
                             </div>
-                            <a class="c-banner-simple__button c-button is-gradient" href="/contact">Liên hệ & Đặt lịch tư vấn</a>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <div style="display: none;">
             <p>&nbsp;</p>

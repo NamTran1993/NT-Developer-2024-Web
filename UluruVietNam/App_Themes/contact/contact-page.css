@@ -7,3 +7,12 @@
     font-size: 93%;
     color: #B70000;
 }
+
+.c-forms__title {
+    min-width: 17.125rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0;
+}

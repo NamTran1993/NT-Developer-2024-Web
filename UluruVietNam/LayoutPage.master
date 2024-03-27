@@ -104,7 +104,7 @@
                 <div class="l-header__content" data-ng-app="app">
                     <h1 class="l-header__heading">
                         <a href="index">
-                            <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="うるるBPOのDịch vụ" />
+                            <img src="App_Themes/uluru-data-html/dist/assets/images/logo.png" alt="" />
                         </a>
                     </h1>
                     <div class="l-header__achievement" data-ng-controller="masterController">
@@ -170,7 +170,7 @@
                                                 <div class="c-over-menu__item-text">Phát triển ứng dụng tích hợp IOT</div>
                                             </div>
                                         </a>
-                                        <a class="c-over-menu__item" href="#" target="_self" rel="noopener">
+                                        <a class="c-over-menu__item" href="equipment" target="_self" rel="noopener">
                                             <div class="c-over-menu__item-inner">
                                                 <div class="c-over-menu__item-icon">
                                                     <img src="App_Themes/upload/2024/03/icon-megamenu-10.png" alt="" />
@@ -207,7 +207,7 @@
         <uc1:LoadingUI runat="server" ID="LoadingUI" />
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
         <div id="_divHiden" style="display: none"></div>
-        <link href="<%=ResolveUrl("~/App_Themes/responsive/responsive.css?ver=1.0.0.0")%>" rel="stylesheet" />
+        <link href="<%=ResolveUrl("~/App_Themes/responsive/responsive.css?ver=1.0.0.1")%>" rel="stylesheet" />
         <script src="<%=ResolveUrl("~/Scripts/masterPage.js?ver=1.0.0.0")%>"></script>
         <script src="<%=ResolveUrl("~/Scripts/responsive.js?ver=1.0.0.0")%>"></script>
     </form>
