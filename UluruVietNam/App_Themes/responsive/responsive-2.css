@@ -1,5 +1,5 @@
 ﻿.menu {
-    color: black;
+    color: #5d5757;
     background: #fff;
     width: 100%;
     display: none;
@@ -16,7 +16,7 @@
     }
 
         .menu ul > li:active {
-            background: #00ffff;
+            
         }
 
 .is-open {

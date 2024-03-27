@@ -3,11 +3,12 @@
 }
 
 .menu {
-    color: black;
+    color: #5d5757;
     background: #fff;
     width: 100%;
     display: none;
     font-family: verdana;
+    transition: 0.5s;
 }
 
     .menu ul > li {
@@ -17,11 +18,13 @@
         text-decoration: none;
         color: #222;
         font-weight: bold;
+        transition: 0.3s;
     }
 
         .menu ul > li:active {
-            background: #00ffff;
+           
         }
+
 
 .is-open {
     display: block;

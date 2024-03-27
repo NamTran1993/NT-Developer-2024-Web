@@ -4,9 +4,14 @@
     let value = document.getElementById("divMenu").className;
     if (value.includes('is-close')) {
         document.getElementById("divMenu").className = 'menu is-open';
+        document.getElementById('open').style.display = 'none';
+        document.getElementById('close').style.display = 'block';
+
         disableScroll();
     } else {
         document.getElementById("divMenu").className = 'menu is-close';
+        document.getElementById('open').style.display = 'block';
+        document.getElementById('close').style.display = 'none';
         enableScroll();
     }
 }

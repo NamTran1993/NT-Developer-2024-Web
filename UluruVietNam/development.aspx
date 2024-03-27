@@ -5,6 +5,36 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceBody" runat="Server">
     <div>
+        <div class="l-page-header " style="visibility: visible; opacity: 1;">
+            <div class="l-page-header__container">
+                <div class="l-page-header__image" style="background-image: url(App_Themes/upload/2024/01/img-page-header-questionnaire.jpg)">
+                </div>
+                <div class="l-page-header__content">
+                    <div class="l-page-header__inner">
+                        <div class="l-page-header__icon">
+                            <img src="App_Themes/upload/2024/01/icon-page-header-questionnaire.png" alt="">
+                        </div>
+                        <h1 class="l-page-header__title">
+                            <span>アンケート入力・集計</span>
+                        </h1>
+                        <div class="l-page-header__text">アンケート回答用紙のデータ化及び集計までワンストップ対応することでコア業務への集中ができます。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-breadcrumb">
+                <div class="l-container">
+                    <div class="c-breadcrumb__inner"><span><span><a href="#">ホーム</a></span> &gt; <span><a href="#">サービス一覧</a></span> &gt; <span class="breadcrumb_last" aria-current="page">アンケート入力・集計</span></span></div>
+                </div>
+            </div>
+            <div class="c-counts  is-page-header">
+                <div class="c-counts__count">
+                    <strong>対応件数</strong>
+                    <small>（2021年10月現在）</small>
+                    <span>4,437</span><strong>案件</strong>
+                </div>
+            </div>
+        </div>
+
         <section class="l-section">
             <div class="c-block-slip-first">
                 <div class="c-block-slip-first__inner">
@@ -421,7 +451,6 @@
 
         <div class="l-offer">
             <div class="l-offer__top">
-               
             </div>
             <div class="l-offer__bottom">
                 <div class="l-offer__image" style="background-image: url(App_Themes/uluru-data-html/dist/assets/images/img-offer-01.jpg)"></div>
@@ -429,7 +458,7 @@
                     <div class="l-container">
                         <div class="l-offer__inner">
                             <h2 class="l-offer__title">Hãy cùng chúng tôi kiến tạo giá trị khác biệt<br class="u-visible-md">
-                             </h2>
+                            </h2>
                             <div class="l-offer__others">
                                 <div class="l-offer__tels">
                                     <a class="l-offer__tel" href="tel:0866-507-268">
