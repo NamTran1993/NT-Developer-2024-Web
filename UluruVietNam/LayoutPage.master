@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="description" content="Trang chủ | LEON 2" />
 
     <link href="<%=ResolveUrl("~/App_Themes/uluru-data-html/dist/assets/images/logo.ico")%>" rel="icon" />
