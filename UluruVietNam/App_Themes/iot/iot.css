@@ -17,17 +17,17 @@
     padding-top: 15%;
 }
 
-.c-block-solution__image_frame .bg-img_frame {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
+    .c-block-solution__image_frame .bg-img_frame {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 
     .c-block-solution__image_frame .div-content {
         position: absolute;
@@ -43,4 +43,25 @@
 .l-section.is-xxxlg {
     padding-top: 1rem;
     padding-bottom: 0rem;
+}
+
+
+.arm-mbed{
+    left: 68px !important;
+}
+
+.home-assistant{
+   right: -10px !important;
+}
+
+.esp-home {
+    top: 80px !important
+}
+
+.openHAB {
+    top: 115px !important
+}
+
+.thing-speak {
+    top: 115px !important
 }

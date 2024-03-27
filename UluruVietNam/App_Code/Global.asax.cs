@@ -23,5 +23,6 @@ public class Global : System.Web.HttpApplication
         routes.MapPageRoute("development", "development", "~/development.aspx");
         routes.MapPageRoute("advise", "advise", "~/advise.aspx");
         routes.MapPageRoute("iot", "iot", "~/iot.aspx");
+        routes.MapPageRoute("equipment", "equipment", "~/equipment.aspx");
     }
 }

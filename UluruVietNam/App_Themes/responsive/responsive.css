@@ -1,4 +1,8 @@
-﻿.menu {
+﻿.l-offer {
+    margin-top: 70px;
+}
+
+.menu {
     color: black;
     background: #fff;
     width: 100%;
@@ -36,7 +40,7 @@
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
     .menu {
         position: absolute;
         left: 0px;
@@ -54,9 +58,83 @@
                 color: #222;
                 font-weight: bold;
             }
+
+    .c-block-solution__image_frame .bg-img_frame {
+        left: -93px;
+        top: -90px;
+    }
+
+        .c-block-solution__image_frame .bg-img_frame .div-content {
+            font-size: 12px;
+        }
+
+    .c-block-solution__content {
+        margin-top: -4.75rem;
+    }
+
+
+    .div-language {
+        padding: 0px;
+    }
+
+    .program .row .large-4 {
+        width: 45%;
+    }
+
+    .communication .row .arm-mbed {
+        left: 50px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 44px !important;
+        left: -164px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 79px !important;
+        left: 40px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 109px !important;
+        left: 45px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+        margin-top: 90px;
+    }
+
+    .bg-espressif {
+        top: -6px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: 40px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 40px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 414px) {
     .menu {
         position: absolute;
         left: 0px;
@@ -74,9 +152,13 @@
                 color: #222;
                 font-weight: bold;
             }
+
+    .div-language {
+        padding: 0px;
+    }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 390px) {
     .menu {
         position: absolute;
         left: 0px;
@@ -94,10 +176,417 @@
                 color: #222;
                 font-weight: bold;
             }
+
+    .div-language {
+        padding: 0px;
+    }
+
+
+    .program .row .large-4 {
+        width: 45%;
+    }
+
+    .framework .row .large-4 {
+        margin-top: 6.75rem;
+        width: 60%;
+    }
+
+    .communication .row .large-4 {
+        width: 100%;
+    }
+
+    .communication .row .arm-mbed {
+        left: 50px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 44px !important;
+        left: -164px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 79px !important;
+        left: 40px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 109px !important;
+        left: 45px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+        margin-top: 90px;
+    }
+
+    .bg-espressif {
+        top: -6px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: 40px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 40px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (min-width: 430px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 66px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+
+    .div-language {
+        padding: 0px;
+    }
+
+    .program .row .large-4 {
+        width: 45%;
+    }
+
+    .framework .row .large-4 {
+        margin-top: 6.75rem;
+        width: 60%;
+    }
+
+    .communication .row .large-4 {
+        width: 100%;
+    }
+
+    .communication .row .arm-mbed {
+        left: 50px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 44px !important;
+        left: -164px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 79px !important;
+        left: 40px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 109px !important;
+        left: 45px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+        margin-top: 90px;
+    }
+
+    .bg-espressif {
+        top: -6px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: 40px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 40px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 66px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+
+    .div-language {
+        padding: 0px;
+    }
+
+    .program .row .large-4 {
+        width: 45%;
+    }
+
+    .framework .row .large-4 {
+        margin-top: 6.75rem;
+        width: 50%;
+    }
+
+    .program .row .large-4 {
+        width: 45%;
+    }
+
+    .communication .row .arm-mbed {
+        left: 7px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+        top: -86px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 51px !important;
+        left: -34px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 108px !important;
+        left: -3px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 143px !important;
+        left: -2px !important;
+    }
+
+    .div-framework {
+    }
+
+    .bg-espressif {
+        top: -22px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: -84px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 0px !important;
+        height: 77px !important;
+        width: 223px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
+}
+
+
+@media only screen and (min-width: 820px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 66px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+
+    .program .row .large-4 {
+        width: 74%;
+    }
+
+    .framework .row .large-4 {
+        margin-top: 6.75rem;
+        width: 48%;
+    }
+
+    .communication .row .arm-mbed {
+        left: 4px !important;
+        top: -76px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+        top: -86px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 51px !important;
+        left: -34px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 108px !important;
+        left: -3px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 143px !important;
+        left: -2px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+    }
+
+    .bg-espressif {
+        top: -22px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: -84px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 0px !important;
+        height: 77px !important;
+        width: 223px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+    .menu {
+        position: absolute;
+        left: 0px;
+        top: 66px;
+        z-index: 1000;
+        height: 932px;
+    }
+
+        .menu ul > li {
+            padding: 12px;
+            color: #222;
+        }
+
+            .menu ul > li > a {
+                color: #222;
+                font-weight: bold;
+            }
+
+    .communication .row .arm-mbed {
+        left: 4px !important;
+        top: -76px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+        top: -86px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 51px !important;
+        left: -34px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 108px !important;
+        left: -3px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 143px !important;
+        left: -2px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+    }
+
+    .bg-espressif {
+        top: -22px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: -53px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 0px !important;
+        height: 77px !important;
+        width: 223px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
+}
+
+
+@media only screen and (min-width: 853px) {
     .menu {
         position: absolute;
         left: 0px;
@@ -117,85 +606,80 @@
             }
 }
 
-
-@media only screen and (max-width: 768px) {
-    .menu {
-        position: absolute;
-        left: 0px;
-        top: 66px;
-        z-index: 1000;
-        height: 932px;
+@media only screen and (min-width: 1024px) {
+    .program .row .large-4 {
+        width: 50%;
     }
 
-        .menu ul > li {
-            padding: 12px;
-            color: #222;
-        }
+    .framework .row .large-4 {
+        margin-top: 3.75rem;
+        width: 43%;
+    }
 
-            .menu ul > li > a {
-                color: #222;
-                font-weight: bold;
-            }
+    .communication .row .arm-mbed {
+        left: 4px !important;
+        top: -76px !important;
+    }
+
+    .communication .row .home-assistant {
+        right: 0px !important;
+        top: -86px !important;
+    }
+
+    .communication .row .esp-home {
+        top: 51px !important;
+        left: -34px !important;
+    }
+
+    .communication .row .openHAB {
+        top: 108px !important;
+        left: -3px !important;
+    }
+
+    .communication .row .thing-speak {
+        top: 143px !important;
+        left: -2px !important;
+    }
+
+    .c-block-solution__image_frame .div-content {
+        top: 18px;
+        font-size: 22.5pt;
+    }
+
+    .div-framework {
+    }
+
+    .bg-espressif {
+        top: -22px !important;
+        left: 40px !important;
+    }
+
+    .bg-stm32 {
+        top: -50px !important;
+        left: -29px !important;
+    }
+
+    .bg-series {
+        top: -40px !important;
+        left: 0px !important;
+        height: 77px !important;
+        width: 240px !important;
+    }
+
+    .bg-sensor {
+        top: -24px !important;
+        left: 40px !important;
+    }
 }
 
 
-@media only screen and (max-width: 820px) {
-    .menu {
-        position: absolute;
-        left: 0px;
-        top: 66px;
-        z-index: 1000;
-        height: 932px;
+@media only screen and (min-width: 280px) {
+    .program .row .large-4 {
+        width: 100%;
     }
 
-        .menu ul > li {
-            padding: 12px;
-            color: #222;
-        }
-
-            .menu ul > li > a {
-                color: #222;
-                font-weight: bold;
-            }
-}
-
-@media only screen and (max-width: 912px) {
-    .menu {
-        position: absolute;
-        left: 0px;
-        top: 66px;
-        z-index: 1000;
-        height: 932px;
+    .framework .row .large-4 {
+        margin-top: 3.75rem;
+        width: 100%;
     }
-
-        .menu ul > li {
-            padding: 12px;
-            color: #222;
-        }
-
-            .menu ul > li > a {
-                color: #222;
-                font-weight: bold;
-            }
-}
-
-
-@media only screen and (max-width: 853px) {
-    .menu {
-        position: absolute;
-        left: 0px;
-        top: 66px;
-        z-index: 1000;
-        height: 932px;
-    }
-
-        .menu ul > li {
-            padding: 12px;
-            color: #222;
-        }
-
-            .menu ul > li > a {
-                color: #222;
-                font-weight: bold;
-            }
 }
