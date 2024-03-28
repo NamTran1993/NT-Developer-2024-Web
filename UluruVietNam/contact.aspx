@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceBody" runat="Server">
     <div data-ng-app="app">
         <div data-ng-controller="contactController">
-            <section class="l-section is-lg is-bg-color">
+            <section class="l-section l-section is-lg is-bg-color">
                 <div class="l-container">
                     <div>
                         <div class="c-form-head">
