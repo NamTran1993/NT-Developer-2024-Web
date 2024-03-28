@@ -7,8 +7,9 @@
     <div class="c-main-visual-one">
         <div class="c-main-visual-one__slider">
             <a class="c-main-visual-one__image" href='contact'>
-                <div class="bg-img u-hidden-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.png)"></div>
-                <div class="bg-img u-visible-sm" style="background-image: url(App_Themes/upload/2024/03/img-main-visual-one-01-scaled.png)"></div>
+                <div>
+                    <img class="bg-img" src="App_Themes/upload/2024/03/img-main-visual-one-01-scaled.png" alt="image" />
+                </div>
             </a>
         </div>
     </div>

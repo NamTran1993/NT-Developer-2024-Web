@@ -7,7 +7,7 @@
     <div>
         <div class="l-page-header " style="visibility: visible; opacity: 1;">
             <div class="l-page-header__container">
-                <div class="l-page-header__image" style="background-image: url(App_Themes/upload/2024/01/img-page-header-questionnaire.jpg)">
+                <div class="l-page-header__image" style="background-image: url(App_Themes/upload/2024/10/page_detail04.jpg)">
                 </div>
                 <div class="l-page-header__content">
                     <div class="l-page-header__inner">
